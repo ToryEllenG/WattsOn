@@ -1,6 +1,10 @@
 # WattsOn
 Home Energy Monitoring Application. Semester Long Project for ISAT 306: Instrumentation and Measurements in Data Communications and Networking.
 
+The purpose of this applicaton is to provide a medium which allows the everyday homeowner to track how much energy is being consumed in their house in real time.
+
+The user will be able to see exactly how much energy is being used in the house, and what room(s) it is coming from, creating an effective way to know where to save costs.
+
 Repository for Android application created and maintained by Troy Gamboa.
 
 ![Login Page](http://i.imgur.com/rZrlPdD.png "Screenshot of Login Page") ![Data Page](http://i.imgur.com/P8EFs51.png "Screenshot of Data Page")
