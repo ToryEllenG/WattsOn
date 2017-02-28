@@ -3,9 +3,13 @@ Home Energy Monitoring Application. Semester Long Project for ISAT 306: Instrume
 
 Repository for Android application created and maintained by Troy Gamboa.
 
-![Login Page](http://i.imgur.com/rZrlPdD.png "Screenshot of Login Page") ![Data Page](http://i.imgur.com/m9CslCg.png "Screenshot of Data Page")
+![Login Page](http://i.imgur.com/rZrlPdD.png "Screenshot of Login Page") ![Data Page](http://i.imgur.com/P8EFs51.png "Screenshot of Data Page")
 
-(2/24/17)
+
+**(2/28/17)**
+	The current UI has been completely revamped, and is utilizing Fragments. Now, the user can slide the screen to the desired activity they wish to view, smoothly. A Settings page has been added to the application. A contact page has been added within the settings page, featuring our social media sites. A logout button has also been added with in the main Fragment Activity.
+
+**(2/24/17)**
   In the application's current state, a splash screen has been added upon user launch, and register and login logic have been initialized through the API hosted on an AWS EC2 Web server.   
   
   The API currently handles all methods for logging in and registering a user, taking advantage of an open source PHP hashing library, which can be found at [here](https://github.com/ircmaxell/password_compat). This library is responsible for hashing the user's password upon registration, and checks if the inputted password matches the hashed password upon log in.   
