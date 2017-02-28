@@ -24,8 +24,11 @@ public class FragmentSettings extends PreferenceFragmentCompat {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.preferences);
 
-        //preference intent for about activity
+        //variables for settings entities
         Preference openAbout = findPreference("keyAbout");
+        Preference openContact = findPreference("keyContact");
+
+        //preference intent for about activity
         openAbout.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             @Override
             public boolean onPreferenceClick(Preference preference) {
@@ -35,7 +38,6 @@ public class FragmentSettings extends PreferenceFragmentCompat {
             }
         });
         //preference intent for Contact Activity
-        Preference openContact = findPreference("keyContact");
         openContact.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             @Override
             public boolean onPreferenceClick(Preference preference) {

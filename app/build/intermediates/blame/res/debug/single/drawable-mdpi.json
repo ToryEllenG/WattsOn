@@ -4,6 +4,10 @@
         "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/drawable-mdpi/ic_toc.png"
     },
     {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_settings_applications.png",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-mdpi/ic_settings_applications.png"
+    },
+    {
         "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_timeline.png",
         "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/drawable-mdpi/ic_timeline.png"
     },
@@ -12,8 +16,24 @@
         "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/drawable-mdpi/ic_settings.png"
     },
     {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_settings.png",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-mdpi/ic_settings.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_timeline.png",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-mdpi/ic_timeline.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_home.png",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-mdpi/ic_home.png"
+    },
+    {
         "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_home.png",
         "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/drawable-mdpi/ic_home.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_toc.png",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-mdpi/ic_toc.png"
     },
     {
         "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_settings_applications.png",

@@ -2,5 +2,9 @@
     {
         "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
         "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
     }
 ]

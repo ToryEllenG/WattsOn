@@ -7,7 +7,7 @@ Repository for Android application created and maintained by Troy Gamboa.
 
 
 **(2/28/17)**
-	The current UI has been completely revamped, and is utilizing Fragments. Now, the user can slide the screen to the desired activity they wish to view, smoothly. A Settings page has been added to the application. A contact page has been added within the settings page, featuring our social media sites. A logout button has also been added with in the main Fragment Activity.
+	The current UI has been completely revamped, and is utilizing Fragments and Material Design. Now, the user can slide the screen to the desired activity they wish to view, smoothly. A Settings page has been added to the application. A contact page has been added within the settings page, featuring our social media sites. A logout button has also been added with in the main Fragment Activity.
 
 **(2/24/17)**
   In the application's current state, a splash screen has been added upon user launch, and register and login logic have been initialized through the API hosted on an AWS EC2 Web server.   

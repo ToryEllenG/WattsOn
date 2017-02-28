@@ -1,5 +1,556 @@
 [
     {
+        "outputFile": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 9,
+                    "endColumn": 12,
+                    "endOffset": 519
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.takisoft.fix/preference-v7/25.1.1.0/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 519
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 524,
+                    "endLine": 17,
+                    "endColumn": 12,
+                    "endOffset": 1006
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.takisoft.fix/preference-v7/25.1.1.0/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 524,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 1006
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1011,
+                    "endLine": 25,
+                    "endColumn": 12,
+                    "endOffset": 1521
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.takisoft.fix/preference-v7/25.1.1.0/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1011,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 1521
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1526,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 1690
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.takisoft.fix/preference-v7/25.1.1.0/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1526,
+                        "endLine": 29,
+                        "endColumn": 12,
+                        "endOffset": 1690
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1695,
+                    "endLine": 37,
+                    "endColumn": 12,
+                    "endOffset": 2171
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.takisoft.fix/preference-v7/25.1.1.0/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1695,
+                        "endLine": 37,
+                        "endColumn": 12,
+                        "endOffset": 2171
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2176,
+                    "endLine": 45,
+                    "endColumn": 12,
+                    "endOffset": 2680
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.takisoft.fix/preference-v7/25.1.1.0/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 2176,
+                        "endLine": 45,
+                        "endColumn": 12,
+                        "endOffset": 2680
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2685,
+                    "endLine": 49,
+                    "endColumn": 12,
+                    "endOffset": 2846
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.takisoft.fix/preference-v7/25.1.1.0/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 2685,
+                        "endLine": 49,
+                        "endColumn": 12,
+                        "endOffset": 2846
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2851,
+                    "endLine": 53,
+                    "endColumn": 12,
+                    "endOffset": 3006
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.takisoft.fix/preference-v7/25.1.1.0/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 2851,
+                        "endLine": 53,
+                        "endColumn": 12,
+                        "endOffset": 3006
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3011,
+                    "endLine": 58,
+                    "endColumn": 12,
+                    "endOffset": 3231
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/preference-v7/25.1.1/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 6,
+                        "endColumn": 12,
+                        "endOffset": 275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 3236,
+                    "endLine": 62,
+                    "endColumn": 12,
+                    "endOffset": 3392
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/preference-v7/25.1.1/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endLine": 10,
+                        "endColumn": 12,
+                        "endOffset": 436
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 3397,
+                    "endLine": 66,
+                    "endColumn": 12,
+                    "endOffset": 3560
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/preference-v14/25.1.1/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 3565,
+                    "endLine": 72,
+                    "endColumn": 12,
+                    "endOffset": 3874
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.takisoft.fix/preference-v7/25.1.1.0/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 3011,
+                        "endLine": 59,
+                        "endColumn": 12,
+                        "endOffset": 3320
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 3879,
+                    "endLine": 75,
+                    "endColumn": 12,
+                    "endOffset": 4047
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 4,
+                        "endColumn": 12,
+                        "endOffset": 223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 4052,
+                    "endLine": 79,
+                    "endColumn": 12,
+                    "endOffset": 4275
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 228,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 451
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 4280,
+                    "endLine": 82,
+                    "endColumn": 12,
+                    "endOffset": 4433
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 456,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 609
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 4438,
+                    "endLine": 85,
+                    "endColumn": 12,
+                    "endOffset": 4583
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 614,
+                        "endLine": 14,
+                        "endColumn": 12,
+                        "endOffset": 759
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 4588,
+                    "endLine": 88,
+                    "endColumn": 12,
+                    "endOffset": 4755
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 764,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 931
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 4760,
+                    "endLine": 92,
+                    "endColumn": 12,
+                    "endOffset": 4983
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 936,
+                        "endLine": 21,
+                        "endColumn": 12,
+                        "endOffset": 1159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 4988,
+                    "endLine": 96,
+                    "endColumn": 12,
+                    "endOffset": 5225
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1164,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 1401
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 5230,
+                    "endLine": 99,
+                    "endColumn": 12,
+                    "endOffset": 5396
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1406,
+                        "endLine": 28,
+                        "endColumn": 12,
+                        "endOffset": 1572
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 5401,
+                    "endLine": 102,
+                    "endColumn": 12,
+                    "endOffset": 5570
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1577,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 1746
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 5575,
+                    "endLine": 105,
+                    "endColumn": 12,
+                    "endOffset": 5739
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1751,
+                        "endLine": 34,
+                        "endColumn": 12,
+                        "endOffset": 1915
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 5744,
+                    "endLine": 109,
+                    "endColumn": 12,
+                    "endOffset": 6012
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1920,
+                        "endLine": 38,
+                        "endColumn": 12,
+                        "endOffset": 2188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 6017,
+                    "endLine": 112,
+                    "endColumn": 12,
+                    "endOffset": 6212
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2193,
+                        "endLine": 41,
+                        "endColumn": 12,
+                        "endOffset": 2388
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 6217,
+                    "endLine": 116,
+                    "endColumn": 12,
+                    "endOffset": 6416
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2393,
+                        "endLine": 45,
+                        "endColumn": 12,
+                        "endOffset": 2592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 6421,
+                    "endLine": 120,
+                    "endColumn": 12,
+                    "endOffset": 6745
+                },
+                "from": {
+                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-v17/values-v17.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 2597,
+                        "endLine": 49,
+                        "endColumn": 12,
+                        "endOffset": 2921
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
         "map": [
             {
