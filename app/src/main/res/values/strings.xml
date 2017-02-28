@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Watts On?</string>
+    <string name="welcometv">Welcome!</string>
+    <string name="seeGraph">Monitor your energy Usage!</string>
+    <string name="graphTest">Current Total Household Usage</string>
+    <string name="select_time_interval">Select Time Interval:</string>
+    <string name="select_room">Select Room:</string>
+    <string name="view_statistics">View Statistics</string>
+    <string name="titleStats">Statistics</string>
+    <string name="select_date_range">Select Date Range:</string>
+    <string name="total_consumption_kwh">Total Consumption (kWh):</string>
+    <string name="average_consumption_kwh">Average Consumption (kWh):</string>
+    <string name="please_login">Please Login</string>
+    <string name="accountRegister">Please Register an Account</string>
+    <string name="aboutApp">About this Application</string>
+    <string name="applianceList">House Data</string>
+    <string name="click_here_to_list_the_available_regions">Click here to list the available regions!</string>
+    <string name="please_wait_app_is_loading">Please wait, app is loading…</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+
+    <string-array name="states_array">
+        <item></item>
+        <item>AL</item>
+        <item>AK</item>
+        <item>AZ</item>
+        <item>AR</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DE</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>HI</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>IA</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>ME</item>
+        <item>MD</item>
+        <item>MA</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>MO</item>
+        <item>MT</item>
+        <item>NE</item>
+        <item>NV</item>
+        <item>NH</item>
+        <item>NJ</item>
+        <item>NM</item>
+        <item>NY</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VT</item>
+        <item>VA</item>
+        <item>WA</item>
+        <item>WV</item>
+        <item>WI</item>
+        <item>WY</item>
+    </string-array>
+
+    <string-array name="interval_arrays">
+        <item>Seconds</item>
+        <item>Minutes</item>
+        <item>Hours</item>
+        <item>Days</item>
+        <item>Weeks</item>
+        <item>Months</item>
+    </string-array>
+
+    <string-array name="room_arrays">
+        <item>Kitchen</item>
+        <item>Living Room</item>
+        <item>Bathroom 1</item>
+        <item>Bathroom 2</item>
+        <item>Room 1</item>
+        <item>Room 2</item>
+        <item>Room 3</item>
+        <item>Room 4</item>
+    </string-array>
+
+    <string-array name="time_arrays">
+        <item>Per Day</item>
+        <item>Per Week</item>
+        <item>Per Month</item>
+    </string-array>
+
+    <string-array name="daterange_arrays">
+        <item>Jan 2017 - Feb 2017</item>
+        <item>Feb 2017 - Mar 2017</item>
+        <item>Mar 2017 - Apr 2017</item>
+        <item>Apr 2017 - May 2017</item>
+        <item>May 2017 - June 2017</item>
+    </string-array>
+    <string name="title_activity_nav_drawer">NavDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="contact_us_through_our_social_media_sites_below">Contact us through our social media sites below!</string>
+
+</resources>

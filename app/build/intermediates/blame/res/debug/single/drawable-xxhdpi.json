@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_settings_applications.png",
+        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/drawable-xxhdpi/ic_settings_applications.png"
+    },
+    {
+        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_settings.png",
+        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/drawable-xxhdpi/ic_settings.png"
+    },
+    {
+        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_timeline.png",
+        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/drawable-xxhdpi/ic_timeline.png"
+    },
+    {
+        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_toc.png",
+        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/drawable-xxhdpi/ic_toc.png"
+    },
+    {
+        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_home.png",
+        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/drawable-xxhdpi/ic_home.png"
+    }
+]

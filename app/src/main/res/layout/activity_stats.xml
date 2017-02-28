@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/total_consumption_kwh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:id="@+id/totalConsumeTV"
+        android:textSize="18sp"
+        android:layout_below="@+id/dateRangeStatsTV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:text="@string/select_date_range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateRangeStatsTV"
+        android:textSize="18sp"
+        android:layout_marginTop="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/totalConsumeTV"
+        android:layout_alignStart="@+id/totalConsumeTV" />
+
+    <TextView
+        android:text="@string/average_consumption_kwh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:id="@+id/averageConsumptionTV"
+        android:textSize="18sp"
+        android:layout_below="@+id/totalConsumeTV"
+        android:layout_alignLeft="@+id/totalConsumeTV"
+        android:layout_alignStart="@+id/totalConsumeTV" />
+
+    <TextView
+        android:text="Time:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:id="@+id/timeSpinnerTV"
+        android:textSize="15sp"
+        android:layout_below="@+id/averageConsumptionTV"
+        android:layout_toLeftOf="@+id/timeSpinner"
+        android:layout_toStartOf="@+id/timeSpinner"
+        android:layout_marginRight="26dp"
+        android:layout_marginEnd="26dp" />
+
+    <Spinner
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:entries="@array/time_arrays"
+        android:id="@+id/timeSpinner"
+        android:layout_marginRight="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_alignBaseline="@+id/timeSpinnerTV"
+        android:layout_alignBottom="@+id/timeSpinnerTV"
+        android:layout_alignRight="@+id/totalConsumeTV"
+        android:layout_alignEnd="@+id/totalConsumeTV" />
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="375dip"
+        android:layout_height="200dip"
+        android:id="@+id/graph2"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/timeSpinner"
+        android:layout_alignLeft="@+id/averageConsumptionTV"
+        android:layout_alignStart="@+id/averageConsumptionTV" />
+
+    <TextView
+        android:text="% Change:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="60dp"
+        android:id="@+id/percentChangeTV"
+        android:textSize="24sp"
+        android:layout_below="@+id/graph2"
+        android:layout_alignRight="@+id/dateRangeStatsTV"
+        android:layout_alignEnd="@+id/dateRangeStatsTV" />
+
+    <Spinner
+        android:layout_width="205dip"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateRangeSpinner"
+        android:entries="@array/daterange_arrays"
+        android:layout_alignTop="@+id/dateRangeStatsTV"
+        android:layout_alignRight="@+id/graph2"
+        android:layout_alignEnd="@+id/graph2" />
+
+</RelativeLayout>

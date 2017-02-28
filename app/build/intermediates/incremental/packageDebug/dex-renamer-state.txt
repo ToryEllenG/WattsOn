@@ -1,0 +1,7 @@
+#Tue Feb 28 12:03:05 EST 2017
+base.0=/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_db11fe6ef97adc3b6b0f01be3f3ce2467d045044
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_01820b547c3d24952548ead90d5fc2fefaa72005/classes.dex
+base.1=/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_01820b547c3d24952548ead90d5fc2fefaa72005
+file.0=/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_db11fe6ef97adc3b6b0f01be3f3ce2467d045044/classes.dex

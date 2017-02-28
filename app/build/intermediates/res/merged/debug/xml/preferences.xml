@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Account Information">
+
+        <Preference
+            android:title="User Profile"
+            android:summary="View or edit your user information."
+            >
+        </Preference>
+
+        <Preference
+            android:title="Home Profile"
+            android:summary="View or edit your home information."
+            >
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="General Settings">
+        <Preference
+            android:title="Energy Consumption Statements"
+            android:summary="View your past comparison statements."
+            >
+        </Preference>
+
+        <Preference
+            android:title="Graph Configuration"
+            android:summary="Change graph settings."
+            >
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Misc / Support">
+
+        <Preference
+            android:title="About"
+            android:key="keyAbout"
+            >
+        </Preference>
+
+        <Preference
+            android:title="Contact Us"
+            android:key="keyContact"
+            >
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

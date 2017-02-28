@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="This application was developed by James Madison University students enrolled in ISAT 306. "
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="20sp"
+        android:layout_weight="0.02" />
+
+    <TextView
+        android:text="The purpose of this applicaton is to provide a medium which allows the everyday homeowner to track how much energy is being consumed in their house in real time."
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textSize="20sp"
+        android:layout_weight="0.02" />
+
+    <TextView
+        android:text="The user will be able to see exactly how much energy is being used in the house, and what room(s) it is coming from, creating an effective way to know where to save costs."
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="20sp"
+        android:layout_weight="0.02" />
+
+    <ImageButton
+        android:layout_width="400dip"
+        android:layout_height="250dip"
+        android:src="@mipmap/duke_dog"
+        android:id="@+id/imageView2"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:scaleType="fitCenter" />
+
+</LinearLayout>

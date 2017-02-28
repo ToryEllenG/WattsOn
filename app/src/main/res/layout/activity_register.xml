@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:text="Sign Up!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BTsignup"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/ETphonenumber"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Phone Number:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/phoneTV"
+        android:layout_below="@+id/ETconfirm"
+        android:layout_alignLeft="@+id/ETphonenumber"
+        android:layout_alignStart="@+id/ETphonenumber" />
+
+    <TextView
+        android:text="Confirm Password:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/confirmTV"
+        android:layout_below="@+id/ETpassword"
+        android:layout_alignLeft="@+id/ETconfirm"
+        android:layout_alignStart="@+id/ETconfirm" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/ETconfirm"
+        android:layout_below="@+id/confirmTV"
+        android:layout_alignLeft="@+id/ETpassword"
+        android:layout_alignStart="@+id/ETpassword" />
+
+    <TextView
+        android:text="Password:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:id="@+id/passwordTV"
+        android:layout_below="@+id/ETusername"
+        android:layout_alignRight="@+id/usernameTV"
+        android:layout_alignEnd="@+id/usernameTV" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/ETpassword"
+        android:layout_below="@+id/passwordTV"
+        android:layout_alignLeft="@+id/ETusername"
+        android:layout_alignStart="@+id/ETusername" />
+
+    <TextView
+        android:text="Email:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:id="@+id/emailTV"
+        android:layout_below="@+id/ETlastname"
+        android:layout_alignLeft="@+id/ETlastname"
+        android:layout_alignStart="@+id/ETlastname" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ETlastname"
+        android:layout_below="@+id/lastnameTV"
+        android:layout_alignLeft="@+id/ETfirstname"
+        android:layout_alignStart="@+id/ETfirstname" />
+
+    <TextView
+        android:text="Last Name:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/lastnameTV"
+        android:layout_below="@+id/ETfirstname"
+        android:layout_alignLeft="@+id/ETlastname"
+        android:layout_alignStart="@+id/ETlastname" />
+
+    <TextView
+        android:text="First Name:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:id="@+id/firstnameTV"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/lastnameTV"
+        android:layout_alignEnd="@+id/lastnameTV" />
+
+    <TextView
+        android:text="Username:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameTV"
+        android:layout_below="@+id/ETemail"
+        android:layout_alignLeft="@+id/ETemail"
+        android:layout_alignStart="@+id/ETemail"
+        android:layout_marginTop="9dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ETusername"
+        android:layout_below="@+id/usernameTV"
+        android:layout_alignLeft="@+id/firstnameTV"
+        android:layout_alignStart="@+id/firstnameTV" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/ETphonenumber"
+        android:layout_below="@+id/phoneTV"
+        android:layout_alignLeft="@+id/ETconfirm"
+        android:layout_alignStart="@+id/ETconfirm"
+        android:hint="(###)-###-####"
+        android:inputType="phone"
+        android:digits="0123456789+"
+         />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/ETemail"
+        android:layout_below="@+id/emailTV"
+        android:layout_alignLeft="@+id/emailTV"
+        android:layout_alignStart="@+id/emailTV"
+        android:hint="email@email.com" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ETfirstname"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_below="@+id/firstnameTV"
+        android:layout_alignRight="@+id/BTsignup"
+        android:layout_alignEnd="@+id/BTsignup" />
+
+</RelativeLayout>

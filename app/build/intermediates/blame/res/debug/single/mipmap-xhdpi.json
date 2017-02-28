@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/mipmap-xhdpi/duke_dog.png",
+        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/mipmap-xhdpi/duke_dog.png"
+    },
+    {
+        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/mipmap-xhdpi/facebook.png",
+        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/mipmap-xhdpi/facebook.png"
+    },
+    {
+        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/mipmap-xhdpi/instagram.png",
+        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/mipmap-xhdpi/instagram.png"
+    },
+    {
+        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/mipmap-xhdpi/twitter.png",
+        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/mipmap-xhdpi/twitter.png"
+    }
+]

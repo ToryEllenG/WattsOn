@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gamboa.troy.WattsOn.FragmentMonitor">
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="350dip"
+        android:layout_height="200dip"
+        android:id="@+id/graph1"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerRoom"
+        android:entries="@array/room_arrays"
+        android:layout_alignBottom="@+id/selectRoom"
+        android:layout_alignLeft="@+id/spinnerTimeInterval"
+        android:layout_alignStart="@+id/spinnerTimeInterval" />
+
+    <Spinner
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerTimeInterval"
+        android:entries="@array/interval_arrays"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/graph1"
+        android:layout_alignEnd="@+id/graph1" />
+
+    <TextView
+        android:text="@string/select_time_interval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeInterval"
+        android:textSize="18sp"
+        android:layout_above="@+id/selectRoom"
+        android:layout_toLeftOf="@+id/spinnerTimeInterval"
+        android:layout_toStartOf="@+id/spinnerTimeInterval"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp" />
+
+    <TextView
+        android:text="@string/select_room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:id="@+id/selectRoom"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/spinnerTimeInterval"
+        android:layout_alignLeft="@+id/timeInterval"
+        android:layout_alignStart="@+id/timeInterval" />
+
+    <Button
+        android:text="@string/view_statistics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewStatisticsBT"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/spinnerRoom"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
