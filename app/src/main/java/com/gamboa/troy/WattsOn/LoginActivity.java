@@ -1,9 +1,11 @@
 package com.gamboa.troy.WattsOn;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -22,12 +24,18 @@ public class LoginActivity extends AppCompatActivity{
 
     EditText etUsername, etPassword;
     Button btnLogin, btnRegister, btnAbout;
+    Toolbar loginToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setTitle(getString(R.string.please_login));
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        //custom login toolbar
+        loginToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(loginToolbar);
+        getSupportActionBar().setTitle(getString(R.string.please_login));
+        loginToolbar.setTitleTextColor(Color.WHITE);
 
          etUsername = (EditText) findViewById(R.id.ETusername);
          etPassword = (EditText) findViewById(R.id.ETpassword);

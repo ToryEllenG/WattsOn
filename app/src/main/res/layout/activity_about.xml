@@ -4,6 +4,15 @@
     android:layout_height="match_parent"
     android:weightSum="1">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        />
+
     <TextView
         android:text="This application was developed by James Madison University students enrolled in ISAT 306. "
         android:layout_width="366dp"
@@ -29,8 +38,8 @@
         android:layout_weight="0.02" />
 
     <ImageButton
-        android:layout_width="400dip"
-        android:layout_height="250dip"
+        android:layout_width="360dip"
+        android:layout_height="200dip"
         android:src="@mipmap/duke_dog"
         android:id="@+id/imageView2"
         android:adjustViewBounds="true"

@@ -3,48 +3,48 @@
 
     <item
         is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_284195ee57f65516b958e65d4c548f1b3adb3ef2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_05e89656d2feffad3f6f6cd43ccb0ed3ed832a38/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_c0f349df9ac6456b680f443f256fc6ebb506b638/classes.dex" />
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_be7ef97f2fe2519c273d7607fd1ec358b6ffeba5/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_891a240cf948e96c9bbd7eafeb154d9bb5d4b11d/classes.dex" />
+        sha1="f8bdfad717ca6997b6faf50c50a483d81e086cdb">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d5ba1501d868162319cfe06edac635c75e55c535/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/exploded-aar/com.jjoe64/graphview/4.2.1/jars/classes.jar"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="987adec819c9a98faf215814f41195da48fc724e">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jjoe64-graphview-4.2.1_d4214cb598a8d3a8334fbc898d1714dc4dcebe6a/classes.dex" />
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_790b98ae72e7a8faac15951c3f4bee97e52631bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/preference-v14/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="082eaf5a8bebe68f147526f16ae3a3e1b40e391e">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-preference-v14-25.1.1_c27332955e006e817b78321b048db2820637ca2f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_de8bab65d2e9bcd0438af4bc3ddf1f0a45b14c69/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -53,61 +53,61 @@
         optimize="true"
         revision="25.0.2"
         sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-6.1.0_f7fbdae9e6ff566f31f9e0bde3a95015658c37fa/classes.dex" />
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-6.1.0_f7fbdae9e6ff566f31f9e0bde3a95015658c37fa/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_35336d5669e3a3135d2a1e31de99d68130d148aa/classes.dex" />
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_a2101cb365353babd241b76cdabe717abb3f53ec/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/exploded-aar/com.felipecsl/gifimageview/2.1.0/jars/classes.jar"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.felipecsl/gifimageview/2.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="e5553c3597d5f766a8364a49925fcbb304bb091b">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.felipecsl-gifimageview-2.1.0_fb2e9e7cf0b8905ea26bb9d0a4d619973f48381f/classes.dex" />
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.felipecsl-gifimageview-2.1.0_5460d5aebb30c0484043b40c5b94e95161f941cb/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/preference-v7/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_46374e16efbb54963290d76772db33acb8991095/classes.dex" />
+        sha1="9078293943d0cf69b4111b7c141456b522a463c1">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-preference-v7-25.1.1_b142fd16a755cd6111f9b10f89c3def4ba1ed003/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/libs/GenAsync.jar"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6a58a869c275f3424cffb0c266d1d1c1518e38e7">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/2/GenAsync_13440e4e9357c1187fa7b333bfd5015cbb3562a0/classes.dex" />
+        sha1="b48c7265418f047c0d2da217e8d51130b4f7a2c8">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e304b4f155a2e7792a5755818c8f5436b3e6e552/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_ada3347229fcc5332775d437c5d46364c0f9722a/classes.dex" />
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_c7e8d178cfb9fd5106f87e3b62706e2bda66da14/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="88b93399559429c78fe7b56f59656ea1427980f2">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_01820b547c3d24952548ead90d5fc2fefaa72005/classes.dex" />
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_b895983fa338c624414977c454eac23bd39aca22/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -116,43 +116,25 @@
         optimize="true"
         revision="25.0.2"
         sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-io-2.4_903097326c585ffbfceccce27d1c923b16154ba6/classes.dex" />
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-io-2.4_903097326c585ffbfceccce27d1c923b16154ba6/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/exploded-aar/com.takisoft.fix/preference-v7/25.1.1.0/jars/classes.jar"
+        jar="/root/AndroidStudioProjects/WattsOn/app/libs/GenAsync.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="36240b3d17577ddd6f8acaf9f2bae370605c3b67">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.takisoft.fix-preference-v7-25.1.1.0_db44c5b7b6a62fabeaeb700c5175d27797282a01/classes.dex" />
+        sha1="6a58a869c275f3424cffb0c266d1d1c1518e38e7">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/2/GenAsync_985f9ae23eb04ce958de469b501a193fc43d7a05/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="641e7951e433041dea3f31ad9f5fcbfdf371c972">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_db11fe6ef97adc3b6b0f01be3f3ce2467d045044/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_8c676d771a09f40f5162c8fe19f82db0c865d69a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/exploded-aar/com.android.support/preference-v14/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="082eaf5a8bebe68f147526f16ae3a3e1b40e391e">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-preference-v14-25.1.1_f63be1e5cfe9e4552c2afa3e2051f704bb967894/classes.dex" />
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_a1cc3fd332deebeef2c41d4e08a0efb643a7bba3/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -161,61 +143,79 @@
         optimize="true"
         revision="25.0.2"
         sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_acaaabd111fb39ccce6bdadc5542d5003dd7533d/classes.dex" />
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_acaaabd111fb39ccce6bdadc5542d5003dd7533d/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/exploded-aar/com.android.support/preference-v7/25.1.1/jars/classes.jar"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="9078293943d0cf69b4111b7c141456b522a463c1">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-preference-v7-25.1.1_2137b3bf892b4b91180574006edc991f9eb63475/classes.dex" />
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_80618ef235783645a1047ea4e8287ed21027f648/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.takisoft.fix/preference-v7/25.1.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_c85f940f848ab239d061dd59c3fbc6f74584c15a/classes.dex" />
+        sha1="36240b3d17577ddd6f8acaf9f2bae370605c3b67">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.takisoft.fix-preference-v7-25.1.1.0_b3ff483a7ebb4da52612b2a8c262f85a92ce9dba/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_121bc3281bdd9087a16f6fe1e13723d67ac6f43d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_d8b9a600f427aa711ed5310c8eca0655c929bdae/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_6b9920b49c960852bc5a3a30ce7e697bb6ddc75b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_b5d09af22fab120e2ed0c1d70b1b6ed391da245c/classes.dex" />
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_0c024bd8ce2104384cb1210b94b85a7a1f64c30a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_496bd01f579dd839180ea48e7f5c1a4e93e12b36/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_b69524a2c0fcc48d7a3c808dafd9442c1040e75e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.jjoe64/graphview/4.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="987adec819c9a98faf215814f41195da48fc724e">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jjoe64-graphview-4.2.1_38ef8c6b3df3e50b628c84915d017683d5be23b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_0157424af76736cb17192819ea13d3c894d8fe79/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_529f395fe7cfdc42800a971a868e990291cf1b7b/classes.dex" />
     </item>
 
 </items>

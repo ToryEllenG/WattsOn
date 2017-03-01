@@ -1,7 +1,7 @@
-#Tue Feb 28 12:03:05 EST 2017
-base.0=/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_db11fe6ef97adc3b6b0f01be3f3ce2467d045044
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_01820b547c3d24952548ead90d5fc2fefaa72005/classes.dex
-base.1=/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_01820b547c3d24952548ead90d5fc2fefaa72005
-file.0=/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_db11fe6ef97adc3b6b0f01be3f3ce2467d045044/classes.dex
+#Tue Feb 28 18:19:01 EST 2017
+base.0=/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d5ba1501d868162319cfe06edac635c75e55c535
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e304b4f155a2e7792a5755818c8f5436b3e6e552/classes.dex
+base.1=/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e304b4f155a2e7792a5755818c8f5436b3e6e552
+file.0=/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d5ba1501d868162319cfe06edac635c75e55c535/classes.dex

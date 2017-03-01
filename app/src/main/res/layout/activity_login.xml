@@ -5,6 +5,15 @@
     android:background="@color/windowBackground"
     >
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="3dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        />
+
     <Button
         android:text="About"
         android:layout_width="wrap_content"

@@ -7,12 +7,14 @@
         <Preference
             android:title="User Profile"
             android:summary="View or edit your user information."
+            android:key="openUser"
             >
         </Preference>
 
         <Preference
             android:title="Home Profile"
             android:summary="View or edit your home information."
+            android:key="openHouseRegister"
             >
         </Preference>
 

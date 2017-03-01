@@ -29,7 +29,7 @@ public class SplashActivity extends AppCompatActivity {
         progressBar.setVisibility(progressBar.VISIBLE);
 
         try {
-            InputStream inputStream = getAssets().open("splashlogo.gif");
+            InputStream inputStream = getAssets().open("bulbflashlogo.gif");
             byte[] bytes = IOUtils.toByteArray(inputStream);
             gifImageView.setBytes(bytes);
             gifImageView.startAnimation();

@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/xml/preferences.xml",
-        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/xml/preferences.xml"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/xml/preferences.xml"
     }

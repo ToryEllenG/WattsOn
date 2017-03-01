@@ -1,17 +1,5 @@
 [
     {
-        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_toc.png",
-        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/drawable-hdpi/ic_toc.png"
-    },
-    {
-        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_settings.png",
-        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/drawable-hdpi/ic_settings.png"
-    },
-    {
-        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_timeline.png",
-        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/drawable-hdpi/ic_timeline.png"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_home.png",
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-hdpi/ic_home.png"
     },
@@ -28,23 +16,11 @@
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-hdpi/ic_settings.png"
     },
     {
-        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_home.png",
-        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/drawable-hdpi/ic_home.png"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_toc.png",
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-hdpi/ic_toc.png"
     },
     {
-        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/drawable-hdpi/logout.png",
-        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/drawable-hdpi/logout.png"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_timeline.png",
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-hdpi/ic_timeline.png"
-    },
-    {
-        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_settings_applications.png",
-        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/drawable-hdpi/ic_settings_applications.png"
     }
 ]

@@ -1,37 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
+    abi="x86"
     api-level="23"
     density="560dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="174355304175096"
-    token="-1633593269726043478"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="184410177987680"
+    token="8851136750828380136"
+    verifier="R_CLASS_CHANGE" >
 
     <task
         name="javac"
-        duration="982" />
+        duration="1205" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="386" />
+        duration="120" />
     <task
         name="verifier"
-        duration="21" />
+        duration="2" />
 
     <artifact
-        location="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="174355304175096"
+        timestamp="184165086060667"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/outputs/apk/app-debug.apk"
+            location="/root/AndroidStudioProjects/WattsOn/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="184410177987680"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

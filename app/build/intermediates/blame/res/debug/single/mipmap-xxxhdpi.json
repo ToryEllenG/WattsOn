@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/facebook.png",
-        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/mipmap-xxxhdpi/facebook.png"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
@@ -12,28 +8,12 @@
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/mipmap-xxxhdpi/facebook.png"
     },
     {
-        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/duke_dog.png",
-        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/mipmap-xxxhdpi/duke_dog.png"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/instagram.png",
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/mipmap-xxxhdpi/instagram.png"
     },
     {
-        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/twitter.png",
-        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/mipmap-xxxhdpi/twitter.png"
-    },
-    {
-        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
-        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/twitter.png",
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/mipmap-xxxhdpi/twitter.png"
-    },
-    {
-        "merged": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/instagram.png",
-        "source": "/home/troygbv/Desktop/FIX FRAGMENT/FIX FRAGMENT/app/src/main/res/mipmap-xxxhdpi/instagram.png"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/duke_dog.png",

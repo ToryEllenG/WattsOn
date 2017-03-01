@@ -110,7 +110,7 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <color name="colorAccent">#FF7F50</color>
+    <color name="colorAccent">#e55ea2</color>
     <color name="colorPrimary">#00897B</color>
     <color name="colorPrimaryDark">#00695C</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
