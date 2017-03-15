@@ -76,12 +76,12 @@
         "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
         "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png",

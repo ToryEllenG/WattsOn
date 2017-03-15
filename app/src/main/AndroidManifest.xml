@@ -26,7 +26,8 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".HouseRegisterActivity" />
         <activity android:name=".ContactActivity" />
-        <activity android:name=".ShowUserData"></activity>
+        <activity android:name=".ShowUserData" />
+        <activity android:name=".TestMP"></activity>
     </application>
 
 </manifest>

@@ -103,4 +103,6 @@ public class FragmentMonitor extends Fragment {
     private double getRandom() {
         return mLastRandom += mRand.nextDouble()*0.5 - 0.25;
     }
+
+
 }

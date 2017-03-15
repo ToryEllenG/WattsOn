@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:2:1-32:12
+ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:2:1-33:12
 	package
 		ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:
 	android:name
 		ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:7:5-30:19
+ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:7:5-31:19
 MERGED from [com.android.volley:volley:1.0.0] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.1.0] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:transition:25.1.0] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/AndroidManifest.xml:22:5-20
@@ -96,9 +96,13 @@ ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:
 	android:name
 		ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:28:19-50
 activity#com.gamboa.troy.WattsOn.ShowUserData
-ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:29:9-59
+ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:29:9-50
 	android:name
 		ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:29:19-47
+activity#com.gamboa.troy.WattsOn.TestMP
+ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:30:9-53
+	android:name
+		ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:30:19-41
 uses-sdk
 INJECTED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.volley:volley:1.0.0] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/AndroidManifest.xml:7:5-43

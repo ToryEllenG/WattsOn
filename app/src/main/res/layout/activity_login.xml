@@ -79,16 +79,13 @@
         android:layout_centerHorizontal="true" />
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="400dip"
+        android:layout_height="175dip"
         android:id="@+id/logoShow"
-        android:src="@drawable/splashlogologin"
-        android:layout_marginBottom="20dp"
+        android:src="@drawable/bannerlogo"
         android:layout_above="@+id/ETusername"
         android:layout_alignRight="@+id/btAbout"
-        android:layout_alignEnd="@+id/btAbout"
-        android:layout_marginRight="14dp"
-        android:layout_marginEnd="14dp" />
+        android:layout_alignEnd="@+id/btAbout" />
 
 
 </RelativeLayout>

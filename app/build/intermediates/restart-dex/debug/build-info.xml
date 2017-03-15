@@ -5,43 +5,61 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="184410177987680"
+    timestamp="66587777743366"
     token="8851136750828380136"
-    verifier="R_CLASS_CHANGE" >
+    verifier="CLASS_ADDED" >
 
     <task
         name="javac"
-        duration="1205" />
+        duration="1317" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="120" />
+        duration="113" />
     <task
         name="verifier"
-        duration="2" />
+        duration="22" />
 
     <artifact
         location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
         type="RESOURCES" />
     <artifact
+        location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+        type="DEX" />
+    <artifact
         location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
         type="DEX" />
 
     <build
-        timestamp="184165086060667"
+        timestamp="66092890833529"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/root/AndroidStudioProjects/WattsOn/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="184410177987680"
-        verifier="R_CLASS_CHANGE" >
+        timestamp="66587777743366"
+        verifier="CLASS_ADDED" >
         <artifact
             location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
             type="RESOURCES" />
+        <artifact
+            location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
         <artifact
             location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
             type="DEX" />

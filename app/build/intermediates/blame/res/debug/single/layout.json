@@ -56,6 +56,10 @@
         "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_test_mp.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_test_mp.xml"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
         "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/layout/abc_list_menu_item_radio.xml"
     },
