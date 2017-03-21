@@ -10,6 +10,9 @@ Repository for Android application created and maintained by Troy Gamboa.
 ![Login Page](http://i.imgur.com/rZrlPdD.png "Screenshot of Login Page") ![Data Page](http://i.imgur.com/P8EFs51.png "Screenshot of Data Page")
 
 
+**(3/14/17)**
+	Looking into different ways to show the data in a real time graph. While the application currently uses a random function displayed through the GraphView Library, I have been looking at alternative methods that might present the data to the user in a smoother fashion. The most notable of these methods includes MPAndroidChart, which I have made a mock page of. The API has another method of which returns all of the data from the HouseEnergy table (encoded in JSON) in the database. This will be used to populate the graphview in the future. 
+
 **(2/28/17)**
 	The current UI has been completely revamped, and is utilizing Fragments and Material Design. Now, the user can slide the screen to the desired activity they wish to view, smoothly. A Settings page has been added to the application. A contact page has been added within the settings page, featuring our social media sites. A logout button has also been added with in the main Fragment Activity.
 
