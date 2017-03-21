@@ -1,38 +1,38 @@
 [
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/layout-v21/notification_action_tombstone.xml"
+        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v21/preference_information_material.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/preference-v14/25.1.1/res/layout-v21/preference_information_material.xml"
+        "source": "/root/.android/build-cache/8094b4cc3e0c3057dfdb4f0608cb3472a9f2c96b/output/res/layout-v21/preference_information_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/layout-v21/notification_template_custom_big.xml"
+        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/layout-v21/notification_template_custom_big.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v21/preference_category_material.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/preference-v14/25.1.1/res/layout-v21/preference_category_material.xml"
+        "source": "/root/.android/build-cache/8094b4cc3e0c3057dfdb4f0608cb3472a9f2c96b/output/res/layout-v21/preference_category_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/layout-v21/notification_template_icon_group.xml"
+        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/layout-v21/notification_template_icon_group.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v21/preference_dropdown_material.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/preference-v14/25.1.1/res/layout-v21/preference_dropdown_material.xml"
+        "source": "/root/.android/build-cache/8094b4cc3e0c3057dfdb4f0608cb3472a9f2c96b/output/res/layout-v21/preference_dropdown_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v21/preference_widget_seekbar_material.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.takisoft.fix/preference-v7/25.1.1.0/res/layout-v21/preference_widget_seekbar_material.xml"
+        "source": "/root/.android/build-cache/dec67511409cca956d4b8e0cb4b4bc8bd4557fca/output/res/layout-v21/preference_widget_seekbar_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v21/preference_material.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/preference-v14/25.1.1/res/layout-v21/preference_material.xml"
+        "source": "/root/.android/build-cache/8094b4cc3e0c3057dfdb4f0608cb3472a9f2c96b/output/res/layout-v21/preference_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/layout-v21/notification_action.xml"
+        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/layout-v21/notification_action.xml"
     }
 ]

@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/res/values/values.xml",
+                    "file": "/root/.android/build-cache/a30dd26b49fd89e8a53d6be5eed3fe84944b026d/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

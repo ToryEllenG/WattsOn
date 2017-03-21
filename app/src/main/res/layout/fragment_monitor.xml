@@ -5,10 +5,10 @@
     android:layout_height="match_parent"
     tools:context="com.gamboa.troy.WattsOn.FragmentMonitor">
 
-    <com.jjoe64.graphview.GraphView
+    <com.github.mikephil.charting.charts.LineChart
         android:layout_width="350dip"
         android:layout_height="200dip"
-        android:id="@+id/graph1"
+        android:id="@+id/chart"
         android:layout_marginTop="12dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -27,9 +27,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/spinnerTimeInterval"
         android:entries="@array/interval_arrays"
-        android:layout_centerVertical="true"
-        android:layout_alignRight="@+id/graph1"
-        android:layout_alignEnd="@+id/graph1" />
+        android:layout_below="@+id/chart"
+        android:layout_alignRight="@+id/chart"
+        android:layout_alignEnd="@+id/chart"
+        android:layout_marginTop="86dp" />
 
     <TextView
         android:text="@string/select_time_interval"
@@ -38,19 +39,17 @@
         android:id="@+id/timeInterval"
         android:textSize="18sp"
         android:layout_above="@+id/selectRoom"
-        android:layout_toLeftOf="@+id/spinnerTimeInterval"
-        android:layout_toStartOf="@+id/spinnerTimeInterval"
-        android:layout_marginRight="13dp"
-        android:layout_marginEnd="13dp" />
+        android:layout_alignLeft="@+id/chart"
+        android:layout_alignStart="@+id/chart" />
 
     <TextView
         android:text="@string/select_room"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="62dp"
+        android:layout_marginTop="49dp"
         android:id="@+id/selectRoom"
-        android:layout_marginLeft="11dp"
-        android:layout_marginStart="11dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
         android:textSize="18sp"
         android:layout_below="@+id/spinnerTimeInterval"
         android:layout_alignLeft="@+id/timeInterval"
@@ -64,5 +63,16 @@
         android:layout_marginTop="42dp"
         android:layout_below="@+id/spinnerRoom"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/clearBT"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/selectRoom"
+        android:layout_alignStart="@+id/selectRoom"
+        android:layout_below="@+id/chart"
+        android:layout_marginTop="13dp"
+        android:text="Reset Data" />
 
 </RelativeLayout>

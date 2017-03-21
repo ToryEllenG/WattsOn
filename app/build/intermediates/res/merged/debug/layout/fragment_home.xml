@@ -24,13 +24,4 @@
         android:layout_above="@+id/TVstarted"
         android:layout_centerHorizontal="true" />
 
-    <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/TVstarted"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="107dp"
-        android:id="@+id/buttonTest" />
-
 </RelativeLayout>

@@ -15,8 +15,6 @@ import android.widget.TextView;
 
 public class FragmentHome extends Fragment {
 
-    private Button test;
-
     public FragmentHome() {
         //required empty public constructor
     }
@@ -40,15 +38,7 @@ public class FragmentHome extends Fragment {
         item = item.substring(0,1).toUpperCase() + item.substring(1).toLowerCase();
         welcome.setText("Welcome, " + item + "!");
 
-        test = (Button) view.findViewById(R.id.buttonTest);
 
-        test.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent openTest = new Intent(getActivity(), TestMP.class);
-                startActivity(openTest);
-            }
-        });
         return view;
     }
 }

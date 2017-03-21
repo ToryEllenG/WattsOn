@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:2:1-33:12
+ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml
@@ -18,23 +18,23 @@ ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:
 	android:name
 		ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:7:5-31:19
-MERGED from [com.android.volley:volley:1.0.0] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:25.1.0] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:transition:25.1.0] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/AndroidManifest.xml:22:5-20
-MERGED from [com.jjoe64:graphview:4.2.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.jjoe64/graphview/4.2.1/AndroidManifest.xml:11:5-12:19
-MERGED from [com.felipecsl:gifimageview:2.1.0] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.felipecsl/gifimageview/2.1.0/AndroidManifest.xml:10:5-20
-MERGED from [com.android.support:preference-v14:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/preference-v14/25.1.1/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:preference-v7:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/preference-v7/25.1.1/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:appcompat-v7:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-core-ui:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/AndroidManifest.xml:25:5-20
+ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:7:5-30:19
+MERGED from [com.android.volley:volley:1.0.0] /root/.android/build-cache/48388009b9c526c1be908e52e7148b1a7ae0512f/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.1.0] /root/.android/build-cache/bde7fc27714a84278168607bf63195fe518720f6/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.1.0] /root/.android/build-cache/79ea28384ba17ea7d388bafd9c369c4678931bb6/output/AndroidManifest.xml:22:5-20
+MERGED from [com.jjoe64:graphview:4.2.1] /root/.android/build-cache/2e33a500f5b753ca30f778be345c70541c0106ec/output/AndroidManifest.xml:11:5-12:19
+MERGED from [com.felipecsl:gifimageview:2.1.0] /root/.android/build-cache/108fd7e919ec5ede08d61cd73e906e4a8623ca57/output/AndroidManifest.xml:10:5-20
+MERGED from [com.android.support:preference-v14:25.1.1] /root/.android/build-cache/8094b4cc3e0c3057dfdb4f0608cb3472a9f2c96b/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:preference-v7:25.1.1] /root/.android/build-cache/11178a96e5f36514fa5abbb3bcc4506fc3f5efbf/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.1] /root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.1] /root/.android/build-cache/1278de1eefb9a6aa10fe4cd4d44f8b3d63897b86/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] /root/.android/build-cache/aebdad5ab7b714350707946026ac773c19ed068d/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] /root/.android/build-cache/0f28e325136f364840e84634f134a7ab5f5f772b/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] /root/.android/build-cache/8808242a667110089c7541cecc1d22c824341cec/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /root/.android/build-cache/1ce53ce6f27db4671f2541802be606a914239349/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /root/.android/build-cache/ad61f8747ae4e590c75cf2901cc69caf8929ce02/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] /root/.android/build-cache/79458a02db85f40bea39625342277a5bcb3fcf78/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.1] /root/.android/build-cache/7a3dfd5140176375c1a75520d7ac80fc95c0ba00/output/AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:10:9-41
 	android:supportsRtl
@@ -99,34 +99,30 @@ activity#com.gamboa.troy.WattsOn.ShowUserData
 ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:29:9-50
 	android:name
 		ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:29:19-47
-activity#com.gamboa.troy.WattsOn.TestMP
-ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:30:9-53
-	android:name
-		ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:30:19-41
 uses-sdk
 INJECTED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.volley:volley:1.0.0] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/AndroidManifest.xml:7:5-43
-MERGED from [com.android.support:design:25.1.0] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:25.1.0] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.jjoe64:graphview:4.2.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.jjoe64/graphview/4.2.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.felipecsl:gifimageview:2.1.0] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.felipecsl/gifimageview/2.1.0/AndroidManifest.xml:8:5-43
-MERGED from [com.takisoft.fix:preference-v7:25.1.1.0] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.takisoft.fix/preference-v7/25.1.1.0/AndroidManifest.xml:7:5-11:335
-MERGED from [com.android.support:preference-v14:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/preference-v14/25.1.1/AndroidManifest.xml:7:5-44
-MERGED from [com.android.support:preference-v7:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/preference-v7/25.1.1/AndroidManifest.xml:7:5-43
-MERGED from [com.android.support:appcompat-v7:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-core-ui:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.1.1] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.volley:volley:1.0.0] /root/.android/build-cache/48388009b9c526c1be908e52e7148b1a7ae0512f/output/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:design:25.1.0] /root/.android/build-cache/bde7fc27714a84278168607bf63195fe518720f6/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.1.0] /root/.android/build-cache/79ea28384ba17ea7d388bafd9c369c4678931bb6/output/AndroidManifest.xml:20:5-44
+MERGED from [com.jjoe64:graphview:4.2.1] /root/.android/build-cache/2e33a500f5b753ca30f778be345c70541c0106ec/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.felipecsl:gifimageview:2.1.0] /root/.android/build-cache/108fd7e919ec5ede08d61cd73e906e4a8623ca57/output/AndroidManifest.xml:8:5-43
+MERGED from [com.takisoft.fix:preference-v7:25.1.1.0] /root/.android/build-cache/dec67511409cca956d4b8e0cb4b4bc8bd4557fca/output/AndroidManifest.xml:7:5-11:335
+MERGED from [com.android.support:preference-v14:25.1.1] /root/.android/build-cache/8094b4cc3e0c3057dfdb4f0608cb3472a9f2c96b/output/AndroidManifest.xml:7:5-44
+MERGED from [com.android.support:preference-v7:25.1.1] /root/.android/build-cache/11178a96e5f36514fa5abbb3bcc4506fc3f5efbf/output/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:appcompat-v7:25.1.1] /root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.1.1] /root/.android/build-cache/1278de1eefb9a6aa10fe4cd4d44f8b3d63897b86/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] /root/.android/build-cache/aebdad5ab7b714350707946026ac773c19ed068d/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] /root/.android/build-cache/0f28e325136f364840e84634f134a7ab5f5f772b/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.1.1] /root/.android/build-cache/8808242a667110089c7541cecc1d22c824341cec/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /root/.android/build-cache/1ce53ce6f27db4671f2541802be606a914239349/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /root/.android/build-cache/ad61f8747ae4e590c75cf2901cc69caf8929ce02/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.1.1] /root/.android/build-cache/9ba19b465bf86ff774d22a8324233a36e410a4da/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.1.1] /root/.android/build-cache/79458a02db85f40bea39625342277a5bcb3fcf78/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.1] /root/.android/build-cache/7a3dfd5140176375c1a75520d7ac80fc95c0ba00/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.1.0] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.1.0] /root/.android/build-cache/bde7fc27714a84278168607bf63195fe518720f6/output/AndroidManifest.xml:23:9-59
 	xmlns:tools
-		ADDED from [com.takisoft.fix:preference-v7:25.1.1.0] /root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.takisoft.fix/preference-v7/25.1.1.0/AndroidManifest.xml:8:9-55
+		ADDED from [com.takisoft.fix:preference-v7:25.1.1.0] /root/.android/build-cache/dec67511409cca956d4b8e0cb4b4bc8bd4557fca/output/AndroidManifest.xml:8:9-55
 	android:targetSdkVersion
 		INJECTED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml
 		INJECTED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml

@@ -1,46 +1,46 @@
 [
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/color-v23/abc_tint_btn_checkable.xml"
+        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/color-v23/abc_tint_btn_checkable.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/color-v23/abc_btn_colored_text_material.xml"
+        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/color-v23/abc_btn_colored_text_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/color-v23/abc_tint_spinner.xml"
+        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/color-v23/abc_tint_spinner.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/color-v23/abc_tint_seek_thumb.xml"
+        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/color-v23/abc_tint_switch_track.xml"
+        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/color-v23/abc_tint_switch_track.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/color-v23/abc_color_highlight_material.xml"
+        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/color-v23/abc_color_highlight_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/color-v23/abc_tint_switch_thumb.xml"
+        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/color-v23/abc_tint_switch_thumb.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/color-v23/design_tint_password_toggle.xml"
+        "source": "/root/.android/build-cache/bde7fc27714a84278168607bf63195fe518720f6/output/res/color-v23/design_tint_password_toggle.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/color-v23/abc_tint_edittext.xml"
+        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/color-v23/abc_tint_edittext.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/color-v23/abc_tint_default.xml"
+        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/color-v23/abc_tint_default.xml"
     }
 ]

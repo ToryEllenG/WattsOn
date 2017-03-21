@@ -1,10 +1,10 @@
 [
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
+        "source": "/root/.android/build-cache/bde7fc27714a84278168607bf63195fe518720f6/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
+        "source": "/root/.android/build-cache/bde7fc27714a84278168607bf63195fe518720f6/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
     }
 ]

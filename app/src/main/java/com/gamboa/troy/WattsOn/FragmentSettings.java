@@ -13,7 +13,7 @@ import android.view.ViewGroup;
  * Created by Troygbv on 2/24/17.
  */
 
-public class FragmentSettings extends PreferenceFragmentCompat {
+public class FragmentSettings extends PreferenceFragmentCompat  {
 
     public FragmentSettings(){
         //required empty constructor
