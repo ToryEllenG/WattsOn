@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context="com.gamboa.troy.WattsOn.FragmentMonitor">
 
-    <com.github.mikephil.charting.charts.LineChart
+    <com.github.mikephil.charting.charts.BarChart
         android:layout_width="350dip"
         android:layout_height="200dip"
         android:id="@+id/chart"
@@ -13,55 +13,13 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <Spinner
-        android:layout_width="150dip"
-        android:layout_height="wrap_content"
-        android:id="@+id/spinnerRoom"
-        android:entries="@array/room_arrays"
-        android:layout_alignBottom="@+id/selectRoom"
-        android:layout_alignLeft="@+id/spinnerTimeInterval"
-        android:layout_alignStart="@+id/spinnerTimeInterval" />
-
-    <Spinner
-        android:layout_width="150dip"
-        android:layout_height="wrap_content"
-        android:id="@+id/spinnerTimeInterval"
-        android:entries="@array/interval_arrays"
-        android:layout_below="@+id/chart"
-        android:layout_alignRight="@+id/chart"
-        android:layout_alignEnd="@+id/chart"
-        android:layout_marginTop="86dp" />
-
-    <TextView
-        android:text="@string/select_time_interval"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/timeInterval"
-        android:textSize="18sp"
-        android:layout_above="@+id/selectRoom"
-        android:layout_alignLeft="@+id/chart"
-        android:layout_alignStart="@+id/chart" />
-
-    <TextView
-        android:text="@string/select_room"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="49dp"
-        android:id="@+id/selectRoom"
-        android:layout_marginLeft="13dp"
-        android:layout_marginStart="13dp"
-        android:textSize="18sp"
-        android:layout_below="@+id/spinnerTimeInterval"
-        android:layout_alignLeft="@+id/timeInterval"
-        android:layout_alignStart="@+id/timeInterval" />
-
     <Button
         android:text="@string/view_statistics"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/viewStatisticsBT"
-        android:layout_marginTop="42dp"
-        android:layout_below="@+id/spinnerRoom"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/Room4DataTV"
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -69,10 +27,100 @@
         style="@android:style/Widget.DeviceDefault.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/selectRoom"
-        android:layout_alignStart="@+id/selectRoom"
+        android:text="Reset Data"
+        android:textSize="12sp"
         android:layout_below="@+id/chart"
-        android:layout_marginTop="13dp"
-        android:text="Reset Data" />
+        android:layout_alignLeft="@+id/chart"
+        android:layout_alignStart="@+id/chart" />
+
+    <TextView
+        android:id="@+id/Room1TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="Room 1:"
+        android:layout_below="@+id/clearBT"
+        android:layout_alignRight="@+id/clearBT"
+        android:layout_alignEnd="@+id/clearBT" />
+
+    <TextView
+        android:id="@+id/Room2TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Room 2:"
+        android:layout_below="@+id/Room1TV"
+        android:layout_alignLeft="@+id/Room1TV"
+        android:layout_alignStart="@+id/Room1TV" />
+
+    <TextView
+        android:id="@+id/Room3TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Room2TV"
+        android:layout_alignStart="@+id/Room2TV"
+        android:layout_below="@+id/Room2TV"
+        android:layout_marginTop="36dp"
+        android:text="Room 3:" />
+
+    <TextView
+        android:id="@+id/Room4TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Room3TV"
+        android:layout_alignStart="@+id/Room3TV"
+        android:layout_below="@+id/Room3TV"
+        android:layout_marginTop="33dp"
+        android:text="Room 4:" />
+
+    <TextView
+        android:id="@+id/PowerTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/clearBT"
+        android:layout_alignBottom="@+id/clearBT"
+        android:layout_toEndOf="@+id/viewStatisticsBT"
+        android:layout_toRightOf="@+id/viewStatisticsBT"
+        android:text="Power (KwH):"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Room1DataTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Room2TV"
+        android:layout_alignEnd="@+id/PowerTV"
+        android:layout_alignRight="@+id/PowerTV"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:text="213" />
+
+    <TextView
+        android:id="@+id/Room2DataTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Room1DataTV"
+        android:layout_alignStart="@+id/Room1DataTV"
+        android:layout_alignTop="@+id/Room2TV"
+        android:text="234" />
+
+    <TextView
+        android:id="@+id/Room3DataTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Room4TV"
+        android:layout_alignEnd="@+id/Room2DataTV"
+        android:layout_alignRight="@+id/Room2DataTV"
+        android:text="345" />
+
+    <TextView
+        android:id="@+id/Room4DataTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Room4TV"
+        android:layout_alignLeft="@+id/Room3DataTV"
+        android:layout_alignStart="@+id/Room3DataTV"
+        android:text="456" />
 
 </RelativeLayout>

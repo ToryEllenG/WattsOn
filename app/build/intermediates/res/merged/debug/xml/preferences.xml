@@ -25,6 +25,7 @@
         <Preference
             android:title="Energy Consumption Statements"
             android:summary="View your past comparison statements."
+            android:key="stats"
             >
         </Preference>
 

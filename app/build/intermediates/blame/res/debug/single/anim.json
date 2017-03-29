@@ -1,66 +1,66 @@
 [
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
-        "source": "/root/.android/build-cache/bde7fc27714a84278168607bf63195fe518720f6/output/res/anim/design_fab_in.xml"
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/anim/design_fab_in.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/anim/abc_slide_out_bottom.xml"
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/anim/abc_slide_out_bottom.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/anim/abc_fade_out.xml"
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/anim/abc_fade_out.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/anim/abc_slide_in_bottom.xml"
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/anim/abc_slide_in_bottom.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/anim/abc_slide_out_top.xml"
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/anim/abc_slide_out_top.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/anim/abc_fade_in.xml"
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/anim/abc_fade_in.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
-        "source": "/root/.android/build-cache/bde7fc27714a84278168607bf63195fe518720f6/output/res/anim/design_bottom_sheet_slide_out.xml"
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/anim/design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
-        "source": "/root/.android/build-cache/bde7fc27714a84278168607bf63195fe518720f6/output/res/anim/design_snackbar_out.xml"
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/anim/design_snackbar_out.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
-        "source": "/root/.android/build-cache/bde7fc27714a84278168607bf63195fe518720f6/output/res/anim/design_fab_out.xml"
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/anim/design_fab_out.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
-        "source": "/root/.android/build-cache/bde7fc27714a84278168607bf63195fe518720f6/output/res/anim/design_bottom_sheet_slide_in.xml"
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/anim/design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
-        "source": "/root/.android/build-cache/bde7fc27714a84278168607bf63195fe518720f6/output/res/anim/design_snackbar_in.xml"
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/anim/design_snackbar_in.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/anim/abc_popup_enter.xml"
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/anim/abc_popup_enter.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/anim/abc_slide_in_top.xml"
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/anim/abc_slide_in_top.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/anim/abc_popup_exit.xml"
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/anim/abc_popup_exit.xml"
     }
 ]

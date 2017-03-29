@@ -1,27 +1,27 @@
 [
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/layout-v21/notification_action_tombstone.xml"
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v21/preference_information_material.xml",
-        "source": "/root/.android/build-cache/8094b4cc3e0c3057dfdb4f0608cb3472a9f2c96b/output/res/layout-v21/preference_information_material.xml"
+        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout-v21/preference_information_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/layout-v21/notification_template_custom_big.xml"
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout-v21/notification_template_custom_big.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v21/preference_category_material.xml",
-        "source": "/root/.android/build-cache/8094b4cc3e0c3057dfdb4f0608cb3472a9f2c96b/output/res/layout-v21/preference_category_material.xml"
+        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout-v21/preference_category_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/layout-v21/notification_template_icon_group.xml"
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout-v21/notification_template_icon_group.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v21/preference_dropdown_material.xml",
-        "source": "/root/.android/build-cache/8094b4cc3e0c3057dfdb4f0608cb3472a9f2c96b/output/res/layout-v21/preference_dropdown_material.xml"
+        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout-v21/preference_dropdown_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v21/preference_widget_seekbar_material.xml",
@@ -29,10 +29,10 @@
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v21/preference_material.xml",
-        "source": "/root/.android/build-cache/8094b4cc3e0c3057dfdb4f0608cb3472a9f2c96b/output/res/layout-v21/preference_material.xml"
+        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout-v21/preference_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/root/.android/build-cache/6297fda28215d1b69e887fb8c1fc97c255a1e7d5/output/res/layout-v21/notification_action.xml"
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout-v21/notification_action.xml"
     }
 ]

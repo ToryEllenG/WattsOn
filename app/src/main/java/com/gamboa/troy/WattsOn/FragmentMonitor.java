@@ -1,10 +1,9 @@
 package com.gamboa.troy.WattsOn;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,32 +11,51 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
-
-import com.github.mikephil.charting.charts.LineChart;
-import com.github.mikephil.charting.components.Legend;
-import com.github.mikephil.charting.components.XAxis;
-import com.github.mikephil.charting.components.YAxis;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonArrayRequest;
+import com.android.volley.toolbox.Volley;
+import com.github.mikephil.charting.charts.BarChart;
+import com.github.mikephil.charting.data.BarData;
+import com.github.mikephil.charting.data.BarDataSet;
+import com.github.mikephil.charting.data.BarEntry;
 import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.data.LineData;
-import com.github.mikephil.charting.data.LineDataSet;
 import com.github.mikephil.charting.highlight.Highlight;
-import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
+import com.github.mikephil.charting.interfaces.datasets.IBarDataSet;
 import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
 import com.github.mikephil.charting.utils.ColorTemplate;
-import com.jjoe64.graphview.GraphView;
-import com.jjoe64.graphview.series.DataPoint;
-import com.jjoe64.graphview.series.LineGraphSeries;
-import java.util.Random;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
- * Created by root on 2/24/17.
+ * Created by troygbv on 2/24/17.
  */
 
-public class FragmentMonitor extends Fragment  implements OnChartValueSelectedListener{
+public class FragmentMonitor extends Fragment {
 
-    private Spinner spinner1, spinner2;
     private Button stats, clear;
-    private LineChart mChart;
+    private BarChart mChart;
+    RequestQueue requestQueue;
+    TextView roomOne, roomTwo, roomThree, roomFour;
+    //Json path for all four rooms. Change API to reflect current data
+    String JsonURL = "http://54.152.50.236/getEnergy.php";
+    String JsonURL2 = "http://54.152.50.236/getEnergy2.php";
+    String JsonURL3 = "http://54.152.50.236/getEnergy3.php";
+    String JsonURL4 = "http://54.152.50.236/getEnergy4.php";
+   public float roomOneNumber, roomTwoNumber, roomThreeNumber, roomFourNumber;
+
+    String jsonResponse, jsonResponse2, jsonResponse3, jsonResponse4;
+    BarDataSet Bardataset, Bardataset2, Bardataset3, Bardataset4;
+    BarData data, data2, data3, data4;
+    public List<BarEntry> barEntry, barEntry2, barEntry3, barEntry4;
 
     public FragmentMonitor(){
         //required empty constructor
@@ -46,70 +64,43 @@ public class FragmentMonitor extends Fragment  implements OnChartValueSelectedLi
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getActivity().getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_monitor, container, false);
 
-        mChart = (LineChart) view.findViewById(R.id.chart);
-        mChart.setOnChartValueSelectedListener(this);
+        //initiate Chart
+        mChart = (BarChart)view.findViewById(R.id.chart);
 
-        // enable description text
-        mChart.getDescription().setEnabled(true);
+        //request queue for volley
+        requestQueue = Volley.newRequestQueue(getActivity());
+        //Set TextView fields to see current usage
+        roomOne = (TextView)view.findViewById(R.id.Room1DataTV);
+        roomTwo = (TextView)view.findViewById(R.id.Room2DataTV);
+        roomThree = (TextView)view.findViewById(R.id.Room3DataTV);
+        roomFour = (TextView)view.findViewById(R.id.Room4DataTV);
 
-        // enable touch gestures
-        mChart.setTouchEnabled(true);
+        //Set Entry for chart
+        barEntry = new ArrayList<>();
 
-        // enable scaling and dragging
-        mChart.setDragEnabled(true);
-        mChart.setScaleEnabled(true);
-        mChart.setDrawGridBackground(false);
+        //Show current energy value in Text field, convert value to float, and display in chart
+        fetchRoomOne();
+        fetchRoomTwo();
+        fetchRoomThree();
+        fetchRoomFour();
 
-        // if disabled, scaling can be done on x- and y-axis separately
-        mChart.setPinchZoom(true);
+        //clear button
+        clear = (Button) view.findViewById(R.id.clearBT);
+        clear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //call refresh later
+                }
 
-        // set an alternative background color
-        mChart.setBackgroundColor(Color.BLACK);
-
-        LineData data = new LineData();
-        data.setValueTextColor(Color.WHITE);
-
-        // add empty data
-        mChart.setData(data);
-
-        // get the legend (only possible after setting data)
-        Legend l = mChart.getLegend();
-
-        // modify the legend ...
-        l.setForm(Legend.LegendForm.LINE);
-        l.setTextColor(Color.WHITE);
-
-        XAxis xl = mChart.getXAxis();
-        xl.setTextColor(Color.WHITE);
-        xl.setDrawGridLines(false);
-        xl.setAvoidFirstLastClipping(true);
-        xl.setEnabled(true);
-
-        YAxis leftAxis = mChart.getAxisLeft();
-        leftAxis.setTextColor(Color.WHITE);
-        leftAxis.setAxisMaximum(100f);
-        leftAxis.setAxisMinimum(0f);
-        leftAxis.setDrawGridLines(true);
-
-        YAxis rightAxis = mChart.getAxisRight();
-        rightAxis.setEnabled(false);
-
-        feedMultiple();
-
-        //Calls id's of spinners. Spinner lists are populated in /res/values/strings.xml do something with these later
-        spinner1 = (Spinner) view.findViewById(R.id.spinnerTimeInterval);
-        spinner2 = (Spinner) view.findViewById(R.id.spinnerRoom);
-
-        //Statistics button
-        stats = (Button) view.findViewById(R.id.viewStatisticsBT);
+        });
+        //stats button
+        stats = (Button)view.findViewById(R.id.viewStatisticsBT);
         stats.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -117,123 +108,234 @@ public class FragmentMonitor extends Fragment  implements OnChartValueSelectedLi
                 startActivity(openStats);
             }
         });
-        //clear button
-        clear = (Button) view.findViewById(R.id.clearBT);
-        clear.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mChart.clearValues();
-                Toast.makeText(getActivity(), "Chart cleared!", Toast.LENGTH_SHORT).show();
-            }
-        });
-
 
         return view;
     }
 
-    private void addEntry() {
 
-        LineData data = mChart.getData();
 
-        if (data != null) {
+    @Override
+    public void onResume() {
+        super.onResume();
 
-            ILineDataSet set = data.getDataSetByIndex(0);
-            // set.addEntry(...); // can be called as well
-
-            if (set == null) {
-                set = createSet();
-                data.addDataSet(set);
-            }
-
-            data.addEntry(new Entry(set.getEntryCount(), (float) (Math.random() * 60) + 30f), 0);
-            data.notifyDataChanged();
-
-            // let the chart know it's data has changed
-            mChart.notifyDataSetChanged();
-
-            // limit the number of visible entries
-            mChart.setVisibleXRangeMaximum(120);
-            // mChart.setVisibleYRange(30, AxisDependency.LEFT);
-
-            // move to the latest entry
-            mChart.moveViewToX(data.getEntryCount());
-
-            // this automatically refreshes the chart (calls invalidate())
-            // mChart.moveViewTo(data.getXValCount()-7, 55f,
-            // YAxis.AxisDependency.LEFT;
-        }
     }
 
-    private LineDataSet createSet() {
 
-        LineDataSet set = new LineDataSet(null, "Real Time Energy Consumption");
-        set.setAxisDependency(YAxis.AxisDependency.LEFT);
-        set.setColor(ColorTemplate.getHoloBlue());
-        set.setCircleColor(Color.WHITE);
-        set.setLineWidth(2f);
-        set.setCircleRadius(2f);
-        set.setFillAlpha(65);
-        set.setFillColor(ColorTemplate.getHoloBlue());
-        set.setHighLightColor(Color.rgb(244, 117, 117));
-        set.setValueTextColor(Color.WHITE);
-        set.setValueTextSize(9f);
-        set.setDrawValues(false);
-        return set;
-    }
+   //custom methods to parse Json based on Room number
+    private void fetchRoomOne() {
 
-    private Thread thread;
+        JsonArrayRequest req = new JsonArrayRequest(JsonURL,
 
-    private void feedMultiple() {
+                new Response.Listener<JSONArray>() {
+                    @Override
+                    public void onResponse(JSONArray response) {
+                        try {
+                            jsonResponse = "";
+                            //loop through each response in the json
+                            for (int i = 0; i < response.length(); i++) {
+                                JSONObject HouseData = (JSONObject) response.get(i);
 
-        if (thread != null)
-            thread.interrupt();
+                                String kWh = HouseData.getString("kWh");
+                               roomOneNumber=Float.valueOf(kWh);
 
-        final Runnable runnable = new Runnable() {
+                                //provide and call parsed values
+                                jsonResponse +=  kWh;
+                            }
+                            // Adds the jsonResponse string to the TextView "results"
+                            //roomOne.setText(jsonResponse);
+                            roomOne.setText(jsonResponse);
 
-            @Override
-            public void run() {
-                addEntry();
-            }
-        };
+                            barEntry.add(new BarEntry(1, roomOneNumber));
+                            Bardataset = new BarDataSet(barEntry, "Current Energy Consumption");
+                            Bardataset.setColors(ColorTemplate.MATERIAL_COLORS);
+                            data = new BarData(Bardataset);
 
-        thread = new Thread(new Runnable() {
+                            mChart.setData(data);
+                            mChart.animateY(4000);
+                            mChart.getDescription().setEnabled(false);
+                            mChart.setFitBars(true);
+                            mChart.getBarData().notifyDataChanged();
+                            mChart.notifyDataSetChanged();
+                            mChart.invalidate();
+                        }
+                        catch (JSONException e) {
+                            e.printStackTrace();
+                            Toast.makeText(getActivity().getApplicationContext(),
+                                    "Error: " + e.getMessage(),
+                                    Toast.LENGTH_LONG).show();
+                        }
 
-            @Override
-            public void run() {
-                for (int i = 0; i < 1000; i++) {
-
-                    // Don't generate garbage runnables inside the loop.
-                    getActivity().runOnUiThread(runnable);
-
-                    try {
-                        Thread.sleep(25);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
                     }
-                }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e("Volley", "Error");
+
+
             }
-        });
+        }
 
-        thread.start();
+        );
+        requestQueue.add(req);
+
     }
 
-    @Override
-    public void onValueSelected(Entry e, Highlight h) {
-        Log.i("Entry selected", e.toString());
+
+    private void fetchRoomTwo() {
+
+        JsonArrayRequest req = new JsonArrayRequest(JsonURL2,
+
+                new Response.Listener<JSONArray>() {
+                    @Override
+                    public void onResponse(JSONArray response) {
+                        try {
+                            jsonResponse2 = "";
+                            //loop through each response in the json
+                            for (int i = 0; i < response.length(); i++) {
+                                JSONObject HouseData = (JSONObject) response.get(i);
+
+                                String kWh = HouseData.getString("kWh");
+                                roomTwoNumber= Float.valueOf(kWh);
+
+                                //provide spacing and call parsed values
+                                jsonResponse2 +=  kWh;
+                            }
+                            // Adds the jsonResponse string to the TextView "results"
+                            roomTwo.setText(jsonResponse2);
+
+                            barEntry.add(new BarEntry(2, roomTwoNumber));
+                            Bardataset2 = new BarDataSet(barEntry, "Current Energy Consumption");
+                            Bardataset2.setColors(ColorTemplate.MATERIAL_COLORS);
+                            data = new BarData(Bardataset2);
+
+                            mChart.setData(data);
+
+                        }
+                        catch (JSONException e) {
+                            e.printStackTrace();
+                            Toast.makeText(getActivity().getApplicationContext(),
+                                    "Error: " + e.getMessage(),
+                                    Toast.LENGTH_LONG).show();
+                        }
+
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e("Volley", "Error");
+
+
+            }
+        }
+
+        );
+        requestQueue.add(req);
     }
 
-    @Override
-    public void onNothingSelected() {
-        Log.i("Nothing selected", "Nothing selected.");
+    private void fetchRoomThree() {
+
+        JsonArrayRequest req = new JsonArrayRequest(JsonURL3,
+
+                new Response.Listener<JSONArray>() {
+                    @Override
+                    public void onResponse(JSONArray response) {
+                        try {
+                            jsonResponse3 = "";
+                            //loop through each response in the json
+                            for (int i = 0; i < response.length(); i++) {
+                                JSONObject HouseData = (JSONObject) response.get(i);
+
+                                String kWh = HouseData.getString("kWh");
+                                roomThreeNumber = Float.valueOf(kWh);
+
+                                barEntry.add(new BarEntry(3, roomThreeNumber));
+                                Bardataset3 = new BarDataSet(barEntry, "Current Energy Consumption");
+                                Bardataset3.setColors(ColorTemplate.MATERIAL_COLORS);
+                                data = new BarData(Bardataset3);
+
+                                mChart.setData(data);
+
+                                //provide spacing and call parsed values
+                                jsonResponse3 +=  kWh;
+                            }
+                            // Adds the jsonResponse string to the TextView "results"
+                            roomThree.setText(jsonResponse3);
+
+                        }
+                        catch (JSONException e) {
+                            e.printStackTrace();
+                            Toast.makeText(getActivity().getApplicationContext(),
+                                    "Error: " + e.getMessage(),
+                                    Toast.LENGTH_LONG).show();
+                        }
+
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e("Volley", "Error");
+
+
+            }
+        }
+
+        );
+        requestQueue.add(req);
+    }
+
+    private void fetchRoomFour() {
+
+        JsonArrayRequest req = new JsonArrayRequest(JsonURL4,
+
+                new Response.Listener<JSONArray>() {
+                    @Override
+                    public void onResponse(JSONArray response) {
+                        try {
+                            jsonResponse4 = "";
+                            //loop through each response in the json
+                            for (int i = 0; i < response.length(); i++) {
+                                JSONObject HouseData = (JSONObject) response.get(i);
+
+                                String kWh = HouseData.getString("kWh");
+                                roomFourNumber = Float.valueOf(kWh);
+
+                                barEntry.add(new BarEntry(4, roomFourNumber));
+                                Bardataset4 = new BarDataSet(barEntry, "Current Energy Consumption");
+                                Bardataset4.setColors(ColorTemplate.MATERIAL_COLORS);
+                                data = new BarData(Bardataset4);
+
+                                mChart.setData(data);
+                                //provide spacing and call parsed values
+                                jsonResponse4 +=  kWh;
+                            }
+                            // Adds the jsonResponse string to the TextView "results"
+                            roomFour.setText(jsonResponse4);
+
+                        }
+                        catch (JSONException e) {
+                            e.printStackTrace();
+                            Toast.makeText(getActivity().getApplicationContext(),
+                                    "Error: " + e.getMessage(),
+                                    Toast.LENGTH_LONG).show();
+                        }
+
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e("Volley", "Error");
+
+
+            }
+        }
+
+        );
+        requestQueue.add(req);
     }
 
     @Override
     public void onPause() {
         super.onPause();
-
-        if (thread != null) {
-            thread.interrupt();
-        }
     }
 
 }
