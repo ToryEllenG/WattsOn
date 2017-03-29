@@ -54,8 +54,8 @@ public class FragmentMonitor extends Fragment {
 
     String jsonResponse, jsonResponse2, jsonResponse3, jsonResponse4;
     BarDataSet Bardataset, Bardataset2, Bardataset3, Bardataset4;
-    BarData data, data2, data3, data4;
-    public List<BarEntry> barEntry, barEntry2, barEntry3, barEntry4;
+    BarData data;
+    public List<BarEntry> barEntry;
 
     public FragmentMonitor(){
         //required empty constructor
