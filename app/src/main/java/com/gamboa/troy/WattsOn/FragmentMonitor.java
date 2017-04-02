@@ -3,14 +3,11 @@ package com.gamboa.troy.WattsOn;
 import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
-import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.widget.Button;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.android.volley.RequestQueue;
@@ -22,10 +19,6 @@ import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.highlight.Highlight;
-import com.github.mikephil.charting.interfaces.datasets.IBarDataSet;
-import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
 import com.github.mikephil.charting.utils.ColorTemplate;
 
 import org.json.JSONArray;
@@ -90,6 +83,12 @@ public class FragmentMonitor extends Fragment {
         fetchRoomThree();
         fetchRoomFour();
 
+        mChart.animateY(3000);
+        mChart.getDescription().setEnabled(false);
+        mChart.setFitBars(true);
+        mChart.notifyDataSetChanged();
+        mChart.invalidate();
+
         //clear button
         clear = (Button) view.findViewById(R.id.clearBT);
         clear.setOnClickListener(new View.OnClickListener() {
@@ -113,13 +112,11 @@ public class FragmentMonitor extends Fragment {
     }
 
 
-
     @Override
     public void onResume() {
         super.onResume();
 
     }
-
 
    //custom methods to parse Json based on Room number
     private void fetchRoomOne() {
@@ -136,27 +133,24 @@ public class FragmentMonitor extends Fragment {
                                 JSONObject HouseData = (JSONObject) response.get(i);
 
                                 String kWh = HouseData.getString("kWh");
-                               roomOneNumber=Float.valueOf(kWh);
 
-                                //provide and call parsed values
+                                //convert to usable float type
+                                roomOneNumber=Float.valueOf(kWh);
+
+                                //provide and call parsed value
                                 jsonResponse +=  kWh;
                             }
                             // Adds the jsonResponse string to the TextView "results"
-                            //roomOne.setText(jsonResponse);
                             roomOne.setText(jsonResponse);
 
+                            //add a new bar entry including the parsed json value.
                             barEntry.add(new BarEntry(1, roomOneNumber));
                             Bardataset = new BarDataSet(barEntry, "Current Energy Consumption");
-                            Bardataset.setColors(ColorTemplate.MATERIAL_COLORS);
+                            Bardataset.setColors(ColorTemplate.PASTEL_COLORS);
                             data = new BarData(Bardataset);
 
                             mChart.setData(data);
-                            mChart.animateY(4000);
-                            mChart.getDescription().setEnabled(false);
-                            mChart.setFitBars(true);
-                            mChart.getBarData().notifyDataChanged();
-                            mChart.notifyDataSetChanged();
-                            mChart.invalidate();
+
                         }
                         catch (JSONException e) {
                             e.printStackTrace();
@@ -179,7 +173,6 @@ public class FragmentMonitor extends Fragment {
         requestQueue.add(req);
 
     }
-
 
     private void fetchRoomTwo() {
 
@@ -205,7 +198,7 @@ public class FragmentMonitor extends Fragment {
 
                             barEntry.add(new BarEntry(2, roomTwoNumber));
                             Bardataset2 = new BarDataSet(barEntry, "Current Energy Consumption");
-                            Bardataset2.setColors(ColorTemplate.MATERIAL_COLORS);
+                            Bardataset2.setColors(ColorTemplate.PASTEL_COLORS);
                             data = new BarData(Bardataset2);
 
                             mChart.setData(data);
@@ -250,7 +243,7 @@ public class FragmentMonitor extends Fragment {
 
                                 barEntry.add(new BarEntry(3, roomThreeNumber));
                                 Bardataset3 = new BarDataSet(barEntry, "Current Energy Consumption");
-                                Bardataset3.setColors(ColorTemplate.MATERIAL_COLORS);
+                                Bardataset3.setColors(ColorTemplate.PASTEL_COLORS);
                                 data = new BarData(Bardataset3);
 
                                 mChart.setData(data);
@@ -301,7 +294,7 @@ public class FragmentMonitor extends Fragment {
 
                                 barEntry.add(new BarEntry(4, roomFourNumber));
                                 Bardataset4 = new BarDataSet(barEntry, "Current Energy Consumption");
-                                Bardataset4.setColors(ColorTemplate.MATERIAL_COLORS);
+                                Bardataset4.setColors(ColorTemplate.PASTEL_COLORS);
                                 data = new BarData(Bardataset4);
 
                                 mChart.setData(data);

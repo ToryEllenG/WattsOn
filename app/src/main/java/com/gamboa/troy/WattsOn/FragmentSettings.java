@@ -55,7 +55,11 @@ public class FragmentSettings extends PreferenceFragmentCompat  {
         openUser.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             @Override
             public boolean onPreferenceClick(Preference preference) {
-                Intent open = new Intent(getActivity(), RegisterActivity.class);
+                Intent open = new Intent(getActivity(), ShowUserData.class);
+                String username = getActivity().getIntent().getExtras().getString("username");
+                Bundle extras = new Bundle();
+                extras.putString("username", username);
+                open.putExtras(extras);
                 startActivity(open);
                 return false;
             }

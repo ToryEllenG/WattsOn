@@ -1,10 +1,12 @@
 package com.gamboa.troy.WattsOn;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -25,12 +27,21 @@ public class RegisterActivity extends AppCompatActivity{
 
     EditText ETfirstname, ETlastname, ETemail, ETusername, ETpassword, ETconfirm, ETphone_number;
     Button btnSignUp;
+    Toolbar registerToolbar;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         setTitle(getString(R.string.accountRegister));
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+
+        //custom about toolbar
+        registerToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(registerToolbar);
+        getSupportActionBar().setTitle("Please Register an Account");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        registerToolbar.setTitleTextColor(Color.WHITE);
+
         //Text Fields
         ETfirstname = (EditText) findViewById(R.id.ETfirstname);
         ETlastname = (EditText) findViewById(R.id.ETlastname);
@@ -116,6 +127,12 @@ public class RegisterActivity extends AppCompatActivity{
 
         });
 
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 
     @Override

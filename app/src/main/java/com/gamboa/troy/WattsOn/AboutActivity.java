@@ -28,6 +28,7 @@ public class AboutActivity extends AppCompatActivity {
         aboutToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(aboutToolbar);
         getSupportActionBar().setTitle("About this Application");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         aboutToolbar.setTitleTextColor(Color.WHITE);
 
         //image button actions
@@ -40,5 +41,11 @@ public class AboutActivity extends AppCompatActivity {
                 startActivity(browserIntent);
             }
         });
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 }

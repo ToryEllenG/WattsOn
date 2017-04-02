@@ -49,21 +49,6 @@ public class MainActivity extends AppCompatActivity {
         setupTabIcons();
 
 
-
-
-       // final Button houseRegister = (Button)findViewById(R.id.HouseRegisterBT);
-
-        //Register house data button
-      //  houseRegister.setOnClickListener(new View.OnClickListener() {
-
-        //    @Override
-        //    public void onClick(View v) {
-        //        Intent intent  = new Intent(MainActivity.this, HouseRegisterActivity.class);
-       //        startActivity(intent);
-         //   }
-       // });
-
-
     }
 
     private void setupTabIcons() {

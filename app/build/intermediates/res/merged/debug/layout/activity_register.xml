@@ -3,36 +3,44 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="3dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        />
 
     <Button
         android:text="Sign Up!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/BTsignup"
-        android:layout_marginTop="17dp"
         android:layout_below="@+id/ETphonenumber"
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:text="Phone Number:"
+        android:id="@+id/phoneTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="11dp"
-        android:id="@+id/phoneTV"
-        android:layout_below="@+id/ETconfirm"
         android:layout_alignLeft="@+id/ETphonenumber"
-        android:layout_alignStart="@+id/ETphonenumber" />
+        android:layout_alignStart="@+id/ETphonenumber"
+        android:layout_below="@+id/ETconfirm"
+        android:layout_marginTop="11dp"
+        android:text="Phone Number:"
+        android:textStyle="bold" />
 
     <TextView
-        android:text="Confirm Password:"
+        android:id="@+id/confirmTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:id="@+id/confirmTV"
-        android:layout_below="@+id/ETpassword"
         android:layout_alignLeft="@+id/ETconfirm"
-        android:layout_alignStart="@+id/ETconfirm" />
+        android:layout_alignStart="@+id/ETconfirm"
+        android:layout_below="@+id/ETpassword"
+        android:layout_marginTop="10dp"
+        android:text="Confirm Password:"
+        android:textStyle="bold" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -45,14 +53,15 @@
         android:layout_alignStart="@+id/ETpassword" />
 
     <TextView
-        android:text="Password:"
+        android:id="@+id/passwordTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
-        android:id="@+id/passwordTV"
+        android:layout_alignEnd="@+id/unameResponseTV"
+        android:layout_alignRight="@+id/unameResponseTV"
         android:layout_below="@+id/ETusername"
-        android:layout_alignRight="@+id/usernameTV"
-        android:layout_alignEnd="@+id/usernameTV" />
+        android:layout_marginTop="7dp"
+        android:text="Password:"
+        android:textStyle="bold" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -65,14 +74,15 @@
         android:layout_alignStart="@+id/ETusername" />
 
     <TextView
-        android:text="Email:"
+        android:id="@+id/emailTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:id="@+id/emailTV"
-        android:layout_below="@+id/ETlastname"
         android:layout_alignLeft="@+id/ETlastname"
-        android:layout_alignStart="@+id/ETlastname" />
+        android:layout_alignStart="@+id/ETlastname"
+        android:layout_below="@+id/ETlastname"
+        android:layout_marginTop="6dp"
+        android:text="Email:"
+        android:textStyle="bold" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -85,34 +95,36 @@
         android:layout_alignStart="@+id/ETfirstname" />
 
     <TextView
-        android:text="Last Name:"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
         android:id="@+id/lastnameTV"
-        android:layout_below="@+id/ETfirstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/ETlastname"
-        android:layout_alignStart="@+id/ETlastname" />
+        android:layout_alignStart="@+id/ETlastname"
+        android:layout_below="@+id/ETfirstname"
+        android:layout_marginTop="12dp"
+        android:text="Last Name:"
+        android:textStyle="bold" />
 
     <TextView
-        android:text="First Name:"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="9dp"
         android:id="@+id/firstnameTV"
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/lastnameTV"
-        android:layout_alignEnd="@+id/lastnameTV" />
-
-    <TextView
-        android:text="Username:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/usernameTV"
-        android:layout_below="@+id/ETemail"
+        android:layout_alignEnd="@+id/lastnameTV"
+        android:layout_alignRight="@+id/lastnameTV"
+        android:layout_below="@+id/my_toolbar"
+        android:text="First Name:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/unameResponseTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/ETemail"
         android:layout_alignStart="@+id/ETemail"
-        android:layout_marginTop="9dp" />
+        android:layout_below="@+id/ETemail"
+        android:layout_marginTop="9dp"
+        android:text="Username:"
+        android:textStyle="bold" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -120,7 +132,7 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/ETusername"
-        android:layout_below="@+id/usernameTV"
+        android:layout_below="@+id/unameResponseTV"
         android:layout_alignLeft="@+id/firstnameTV"
         android:layout_alignStart="@+id/firstnameTV" />
 
