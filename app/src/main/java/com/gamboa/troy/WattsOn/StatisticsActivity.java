@@ -3,6 +3,8 @@ package com.gamboa.troy.WattsOn;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.widget.TextView;
 
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.ValueDependentColor;
@@ -16,44 +18,64 @@ import com.jjoe64.graphview.series.DataPoint;
 
 public class StatisticsActivity extends AppCompatActivity {
 
+    Toolbar statsToolBar;
+    TextView totalView, averageView, roomOneView, roomTwoView, roomThreeView, roomFourView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         setTitle(R.string.titleStats);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stats);
 
+        //custom toolbar
+        statsToolBar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(statsToolBar);
+        getSupportActionBar().setTitle("Statistics");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        statsToolBar.setTitleTextColor(Color.WHITE);
 
-        GraphView graph2 = (GraphView) findViewById(R.id.graph2);
-        //Series 1
-        BarGraphSeries<DataPoint> series = new BarGraphSeries<>(new DataPoint[] {
-                new DataPoint(0, 4),
-                new DataPoint(1, 6),
-                new DataPoint(2, 7),
-                new DataPoint(3, 2),
-                new DataPoint(4, 5)
-        });
-        graph2.addSeries(series);
-        //Series 2
-        BarGraphSeries<DataPoint> series2 = new BarGraphSeries<>(new DataPoint[] {
-                new DataPoint(0, 2),
-                new DataPoint(1, 8),
-                new DataPoint(2, 3),
-                new DataPoint(3, 5),
-                new DataPoint(4, 7)
-        });
-        graph2.addSeries(series2);
+        totalView = (TextView)findViewById(R.id.totalTV);
+        averageView = (TextView)findViewById(R.id.averageTV);
+        roomOneView = (TextView)findViewById(R.id.roomOnePercent);
+        roomTwoView = (TextView)findViewById(R.id.roomTwoPercent);
+        roomThreeView = (TextView)findViewById(R.id.roomThreePercent);
+        roomFourView = (TextView)findViewById(R.id.roomFourPercent);
 
-        //style
-        series.setValueDependentColor(new ValueDependentColor<DataPoint>() {
-            @Override
-            public int get(DataPoint data) {
-                return Color.RED;
-            }
-        });
+        String roomOne = getIntent().getExtras().getString("roomOne");
+        String roomTwo = getIntent().getExtras().getString("roomTwo");
+        String roomThree = getIntent().getExtras().getString("roomThree");
+        String roomFour = getIntent().getExtras().getString("roomFour");
 
-        series.setSpacing(25);
-        series2.setSpacing(25);
+        //convert room strings to usable floats
+        float roomOneFloat = Float.valueOf(roomOne);
+        float roomTwoFloat = Float.valueOf(roomTwo);
+        float roomThreeFloat = Float.valueOf(roomThree);
+        float roomFourFloat = Float.valueOf(roomFour);
+        float totalFloat = roomOneFloat + roomTwoFloat + roomThreeFloat + roomFourFloat;
+        float averageFloat = (roomOneFloat + roomTwoFloat + roomThreeFloat + roomFourFloat)/4;
+
+        String total = Float.toString(totalFloat);
+        String average = Float.toString(averageFloat);
+        String roomOnePercent = Float.toString((roomOneFloat/totalFloat)*100);
+        String roomTwoPercent = Float.toString((roomTwoFloat/totalFloat)*100);
+        String roomThreePercent = Float.toString((roomThreeFloat/totalFloat)*100);
+        String roomFourPercent = Float.toString((roomFourFloat/totalFloat)*100);
+
+
+        totalView.setText(total);
+        averageView.setText(average);
+        roomOneView.setText(roomOnePercent);
+        roomTwoView.setText(roomTwoPercent);
+        roomThreeView.setText(roomThreePercent);
+        roomFourView.setText(roomFourPercent);
+
+
     }
 
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+    }
 
 }

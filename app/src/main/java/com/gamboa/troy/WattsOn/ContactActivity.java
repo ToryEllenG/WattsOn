@@ -23,6 +23,7 @@ public class ContactActivity extends AppCompatActivity {
         contactToolBar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(contactToolBar);
         getSupportActionBar().setTitle("Contact Information");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         contactToolBar.setTitleTextColor(Color.WHITE);
 
         ImageButton instagram = (ImageButton)findViewById(R.id.imageView2);
@@ -52,5 +53,11 @@ public class ContactActivity extends AppCompatActivity {
                 startActivity(browserIntent);
             }
         });
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 }

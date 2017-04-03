@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:2:1-32:12
+ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:2:1-33:12
 	package
 		ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:
 	android:name
 		ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:7:5-30:19
+ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:7:5-31:19
 MERGED from [com.android.volley:volley:1.0.0] /root/.android/build-cache/48388009b9c526c1be908e52e7148b1a7ae0512f/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.1.0] /root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:transition:25.1.0] /root/.android/build-cache/d8b998ef71e422f5fba7888660b81c91fe2756ae/output/AndroidManifest.xml:22:5-20
@@ -35,6 +35,7 @@ MERGED from [com.android.support:animated-vector-drawable:25.1.1] /root/.android
 MERGED from [com.android.support:support-vector-drawable:25.1.1] /root/.android/build-cache/1583dd810e7834828a2e8913319443318922b563/output/AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:support-core-ui:25.1.1] /root/.android/build-cache/fb308dcf9b7a2fd30335e6649c8d31d3c606518b/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.1.1] /root/.android/build-cache/e2dbd552846ede8903703ba5afd714f37ef66745/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /root/.android/build-cache/c715e250c9768e6584219aa94fea533c8d40da6a/output/AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:10:9-41
 	android:supportsRtl
@@ -99,6 +100,10 @@ activity#com.gamboa.troy.WattsOn.ShowUserData
 ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:29:9-50
 	android:name
 		ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:29:19-47
+activity#com.gamboa.troy.WattsOn.EditUserData
+ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:30:9-59
+	android:name
+		ADDED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml:30:19-47
 uses-sdk
 INJECTED from /root/AndroidStudioProjects/WattsOn/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.volley:volley:1.0.0] /root/.android/build-cache/48388009b9c526c1be908e52e7148b1a7ae0512f/output/AndroidManifest.xml:7:5-43
@@ -119,6 +124,7 @@ MERGED from [com.android.support:support-vector-drawable:25.1.1] /root/.android/
 MERGED from [com.android.support:recyclerview-v7:25.1.1] /root/.android/build-cache/f0547621731f2f1bcc952c91491d315af4556546/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-core-ui:25.1.1] /root/.android/build-cache/fb308dcf9b7a2fd30335e6649c8d31d3c606518b/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.1.1] /root/.android/build-cache/e2dbd552846ede8903703ba5afd714f37ef66745/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /root/.android/build-cache/c715e250c9768e6584219aa94fea533c8d40da6a/output/AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.1.0] /root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/AndroidManifest.xml:23:9-59
 	xmlns:tools

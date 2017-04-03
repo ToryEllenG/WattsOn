@@ -98,12 +98,20 @@ public class FragmentMonitor extends Fragment {
                 }
 
         });
+
         //stats button
         stats = (Button)view.findViewById(R.id.viewStatisticsBT);
         stats.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
                 Intent openStats = new Intent(getActivity(), StatisticsActivity.class);
+                Bundle extras = new Bundle();
+                extras.putString("roomOne", jsonResponse);
+                extras.putString("roomTwo", jsonResponse2);
+                extras.putString("roomThree", jsonResponse3);
+                extras.putString("roomFour", jsonResponse4);
+                openStats.putExtras(extras);
                 startActivity(openStats);
             }
         });
@@ -150,6 +158,11 @@ public class FragmentMonitor extends Fragment {
                             data = new BarData(Bardataset);
 
                             mChart.setData(data);
+
+                            Intent roomOnePass= new Intent(getActivity(), FragmentMonitor.class);
+                            Bundle extras = new Bundle();
+                            extras.putString("roomOne", jsonResponse);
+                            roomOnePass.putExtras(extras);
 
                         }
                         catch (JSONException e) {

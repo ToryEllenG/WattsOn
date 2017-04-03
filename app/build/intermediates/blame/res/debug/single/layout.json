@@ -312,6 +312,10 @@
         "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/notification_template_lines_media.xml"
     },
     {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_edit_user_data.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_edit_user_data.xml"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_material.xml",
         "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout/preference_material.xml"
     }

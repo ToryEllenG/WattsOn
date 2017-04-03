@@ -2,6 +2,24 @@
 <items version="2" >
 
     <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/80d31991c223ddebb5356d754aca5225dc14c3b5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9078293943d0cf69b4111b7c141456b522a463c1">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_72fbb9f0e46b31e7f668fe3e78997b25ecf7bd78/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_76f81077aea9bd1699aabfb9818dc8fa3bde44df/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/root/.android/build-cache/108fd7e919ec5ede08d61cd73e906e4a8623ca57/output/jars/classes.jar"
         jumboMode="false"
@@ -29,6 +47,24 @@
         <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/MPAndroidChart-v3.0.1_f7a65a51d8219a4a9110499df32861922ea45f44.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/9bbe2d370697ebe1c2130e7aad114eaeccb5add3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d773cf043918250ebd1e1d9380027ed43e998627/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/c715e250c9768e6584219aa94fea533c8d40da6a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a85b78a05571fa578059bfdf9fd7bda01ac075f4/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/root/.android/build-cache/11178a96e5f36514fa5abbb3bcc4506fc3f5efbf/output/jars/classes.jar"
         jumboMode="false"
@@ -38,12 +74,21 @@
         <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/classes_686ad30f5c5b7b8600571583201fc84c61330628.jar" />
     </item>
     <item
+        is-multidex="false"
+        jar="/root/.android/build-cache/2e33a500f5b753ca30f778be345c70541c0106ec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="987adec819c9a98faf215814f41195da48fc724e">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/classes_d749bde687f7b244e4b38e69917fbd4b12723614.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="bbfae328c413fd5363280d713f9a893dd3c9f1d4">
+        sha1="023c5e9649407e901377c7994b87cd3249aefabd">
         <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d5ba1501d868162319cfe06edac635c75e55c535/classes.dex" />
     </item>
     <item
@@ -65,159 +110,6 @@
         <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9a5602925b94c8e8b12528abf10b1656a2798045/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/7a3dfd5140176375c1a75520d7ac80fc95c0ba00/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/classes_82d1f2928283c0c9c177a98b13d3e9da2b05d910.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
-        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/butterknife-6.1.0_f7fbdae9e6ff566f31f9e0bde3a95015658c37fa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/bde7fc27714a84278168607bf63195fe518720f6/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/classes_d95787e18531df24d48d4362f12844be23749af6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/48388009b9c526c1be908e52e7148b1a7ae0512f/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/classes_8d3c336d57349be69d3964fcb400b95acd828a72.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/root/.android/build-cache/e2dbd552846ede8903703ba5afd714f37ef66745/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d7a146a1d997c6fb4cda5ff905aef5904e287809/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/root/AndroidStudioProjects/WattsOn/app/libs/GenAsync.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6a58a869c275f3424cffb0c266d1d1c1518e38e7">
-        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/2/GenAsync_985f9ae23eb04ce958de469b501a193fc43d7a05/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.1_acaaabd111fb39ccce6bdadc5542d5003dd7533d.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/root/.android/build-cache/ed6cc3d861922a5194ab9909179e531bec551b0b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5004fa958d6e36373b0fb52d702374570a740d09/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/root/.android/build-cache/d8b998ef71e422f5fba7888660b81c91fe2756ae/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_46f2ded8f6b086c23ee025040aad3e9aeb93f709/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_93c614d31f82e167342817e000d3c77176ce70a5/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/aebdad5ab7b714350707946026ac773c19ed068d/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/classes_5195b7285e1b00c9f26f1189a6f3af8948504f78.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/1278de1eefb9a6aa10fe4cd4d44f8b3d63897b86/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/classes_98f3ead33929291e69e1065ac0edb2639a196535.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/dec67511409cca956d4b8e0cb4b4bc8bd4557fca/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="36240b3d17577ddd6f8acaf9f2bae370605c3b67">
-        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/classes_6413a3384d93152fb393a96b96e6b59de6193e85.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/root/.android/build-cache/c2433b3da3b115dda3e5feb5976dd991d663767d/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1639f9f9fa51d211d09440acbb540a9bd7099447/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/root/.android/build-cache/80d31991c223ddebb5356d754aca5225dc14c3b5/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9078293943d0cf69b4111b7c141456b522a463c1">
-        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_72fbb9f0e46b31e7f668fe3e78997b25ecf7bd78/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/root/.android/build-cache/9bbe2d370697ebe1c2130e7aad114eaeccb5add3/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d773cf043918250ebd1e1d9380027ed43e998627/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/2e33a500f5b753ca30f778be345c70541c0106ec/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="987adec819c9a98faf215814f41195da48fc724e">
-        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/classes_d749bde687f7b244e4b38e69917fbd4b12723614.jar" />
-    </item>
-    <item
         is-multidex="true"
         jar="/root/.android/build-cache/b89f6cd9602b66468940d9b18fa4cccfd9a400e1/output/jars/classes.jar"
         jumboMode="true"
@@ -225,6 +117,15 @@
         revision="25.0.2"
         sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
         <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_89b3e4b4bfbca1e56d601248ac1b16a74d092cd3/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/root/.android/build-cache/7a3dfd5140176375c1a75520d7ac80fc95c0ba00/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/classes_82d1f2928283c0c9c177a98b13d3e9da2b05d910.jar" />
     </item>
     <item
         is-multidex="false"
@@ -245,6 +146,15 @@
         <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/commons-io-2.4_fdce6042c36c2a3f4b93daf8167562e8e898e2c6.jar" />
     </item>
     <item
+        is-multidex="false"
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/butterknife-6.1.0_f7fbdae9e6ff566f31f9e0bde3a95015658c37fa.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
@@ -252,6 +162,15 @@
         revision="25.0.2"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
         <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e304b4f155a2e7792a5755818c8f5436b3e6e552/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/root/.android/build-cache/bde7fc27714a84278168607bf63195fe518720f6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/classes_d95787e18531df24d48d4362f12844be23749af6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -264,12 +183,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/root/.android/build-cache/48388009b9c526c1be908e52e7148b1a7ae0512f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/classes_8d3c336d57349be69d3964fcb400b95acd828a72.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/root/AndroidStudioProjects/WattsOn/app/libs/GenAsync.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="6a58a869c275f3424cffb0c266d1d1c1518e38e7">
         <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/GenAsync_985f9ae23eb04ce958de469b501a193fc43d7a05.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/e2dbd552846ede8903703ba5afd714f37ef66745/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d7a146a1d997c6fb4cda5ff905aef5904e287809/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -281,6 +218,24 @@
         <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3e44d51b3ebb093cb715346407fe26169212fbab/classes.dex" />
     </item>
     <item
+        is-multidex="true"
+        jar="/root/AndroidStudioProjects/WattsOn/app/libs/GenAsync.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a58a869c275f3424cffb0c266d1d1c1518e38e7">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/2/GenAsync_985f9ae23eb04ce958de469b501a193fc43d7a05/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/root/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.1_acaaabd111fb39ccce6bdadc5542d5003dd7533d.jar" />
+    </item>
+    <item
         is-multidex="false"
         jar="/root/.android/build-cache/8808242a667110089c7541cecc1d22c824341cec/output/jars/classes.jar"
         jumboMode="false"
@@ -290,6 +245,15 @@
         <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/classes_214cd3aa7836612bbc0b6411baf78b9e0d924622.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/ed6cc3d861922a5194ab9909179e531bec551b0b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5004fa958d6e36373b0fb52d702374570a740d09/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/root/.android/build-cache/79458a02db85f40bea39625342277a5bcb3fcf78/output/jars/classes.jar"
         jumboMode="false"
@@ -297,6 +261,15 @@
         revision="25.0.2"
         sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
         <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/classes_746ea109bc6c8f45653e10c002800d7d0bd88fb8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/d8b998ef71e422f5fba7888660b81c91fe2756ae/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_46f2ded8f6b086c23ee025040aad3e9aeb93f709/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -344,6 +317,42 @@
         <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/classes_3db6410c7e9635a697b1b67968481bf03c31eb9c.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_93c614d31f82e167342817e000d3c77176ce70a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/root/.android/build-cache/aebdad5ab7b714350707946026ac773c19ed068d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/classes_5195b7285e1b00c9f26f1189a6f3af8948504f78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/root/.android/build-cache/1278de1eefb9a6aa10fe4cd4d44f8b3d63897b86/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/classes_98f3ead33929291e69e1065ac0edb2639a196535.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/root/.android/build-cache/dec67511409cca956d4b8e0cb4b4bc8bd4557fca/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="36240b3d17577ddd6f8acaf9f2bae370605c3b67">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/classes_6413a3384d93152fb393a96b96e6b59de6193e85.jar" />
+    </item>
+    <item
         is-multidex="false"
         jar="/root/.android/build-cache/79ea28384ba17ea7d388bafd9c369c4678931bb6/output/jars/classes.jar"
         jumboMode="false"
@@ -351,6 +360,15 @@
         revision="25.0.2"
         sha1="d38084015027549951cbaea5d5f6fb795cc81151">
         <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/pre-dexed/debug/classes_87bc1d50ee793214f841cfae20119c83483757d8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/c2433b3da3b115dda3e5feb5976dd991d663767d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1639f9f9fa51d211d09440acbb540a9bd7099447/classes.dex" />
     </item>
     <item
         is-multidex="true"

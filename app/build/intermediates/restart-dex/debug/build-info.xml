@@ -6,22 +6,22 @@
     density="560dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1491166771053"
+    timestamp="1491189289011"
     token="8851136750828380136"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="321" />
+        duration="307" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="57" />
+        duration="39" />
     <task
         name="verifier"
-        duration="2" />
+        duration="0" />
 
     <artifact
         location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -73,7 +73,35 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1491166617364"
+        timestamp="1491177923737"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1491186014146"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1491189082299"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/root/AndroidStudioProjects/WattsOn/app/build/outputs/apk/app-debug.apk"
@@ -81,7 +109,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1491166771053"
+        timestamp="1491189289011"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
