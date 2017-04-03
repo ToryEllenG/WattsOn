@@ -155,4 +155,10 @@
         android:text="TextView"
         android:textSize="16sp" />
 
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechart"
+        android:layout_width="375dp"
+        android:layout_height="325dp"
+        android:layout_below="@+id/roomFourPercent"
+        android:layout_centerInParent="true"/>
 </RelativeLayout>
