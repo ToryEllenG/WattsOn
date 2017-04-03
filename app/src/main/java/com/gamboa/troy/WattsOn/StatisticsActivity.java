@@ -1,4 +1,5 @@
 package com.gamboa.troy.WattsOn;
+//Credit Molly Bohan for Pie Chart Idea
 
 import android.graphics.Color;
 import android.icu.text.DecimalFormat;
@@ -11,11 +12,13 @@ import android.text.style.RelativeSizeSpan;
 import android.text.style.StyleSpan;
 import android.widget.TextView;
 
+import com.github.mikephil.charting.animation.Easing;
 import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.data.PieEntry;
+import com.github.mikephil.charting.formatter.PercentFormatter;
 import com.github.mikephil.charting.utils.ColorTemplate;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.ValueDependentColor;
@@ -24,6 +27,7 @@ import com.jjoe64.graphview.series.DataPoint;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 
 /**
@@ -57,13 +61,14 @@ public class StatisticsActivity extends AppCompatActivity {
         roomThreeView = (TextView)findViewById(R.id.roomThreePercent);
         roomFourView = (TextView)findViewById(R.id.roomFourPercent);
 
+        //fetch the values of the values from FragmentMonitor class
         String roomOne = getIntent().getExtras().getString("roomOne");
         String roomTwo = getIntent().getExtras().getString("roomTwo");
         String roomThree = getIntent().getExtras().getString("roomThree");
         String roomFour = getIntent().getExtras().getString("roomFour");
 
         //convert room strings to usable floats
-        float roomOneFloat = Float.valueOf(roomOne);
+        float roomOneFloat = + Float.valueOf(roomOne);
         float roomTwoFloat = Float.valueOf(roomTwo);
         float roomThreeFloat = Float.valueOf(roomThree);
         float roomFourFloat = Float.valueOf(roomFour);
@@ -73,18 +78,31 @@ public class StatisticsActivity extends AppCompatActivity {
         //calculate the total, average and percent usage by room into a String
         String total = Float.toString(totalFloat);
         String average = Float.toString(averageFloat);
-        String roomOnePercent = Float.toString((roomOneFloat/totalFloat)*100);
-        String roomTwoPercent = Float.toString((roomTwoFloat/totalFloat)*100);
-        String roomThreePercent = Float.toString((roomThreeFloat/totalFloat)*100);
-        String roomFourPercent = Float.toString((roomFourFloat/totalFloat)*100);
+        float roomOnePercent = roomOneFloat/totalFloat*100;
+        float roomTwoPercent = roomTwoFloat/totalFloat*100;
+        float roomThreePercent = roomThreeFloat/totalFloat*100;
+        float roomFourPercent = roomFourFloat/totalFloat*100;
+
+        //format to two decimal places
+        String one = String.format(Locale.US, "%.2f", roomOnePercent);
+        String two = String.format(Locale.US, "%.2f", roomTwoPercent);
+        String three = String.format(Locale.US, "%.2f", roomThreePercent);
+        String four = String.format(Locale.US, "%.2f", roomFourPercent);
+
+        //concatenate the percent sign
+        String percent = " %";
+        String roomOnePercentV = one + percent;
+        String roomTwoPercentV = two + percent;
+        String roomThreePercentV = three + percent;
+        String roomFourPercentV = four + percent;
 
         //Set the TextView fields to the calculations
         totalView.setText(total);
         averageView.setText(average);
-        roomOneView.setText(roomOnePercent);
-        roomTwoView.setText(roomTwoPercent);
-        roomThreeView.setText(roomThreePercent);
-        roomFourView.setText(roomFourPercent);
+        roomOneView.setText(roomOnePercentV);
+        roomTwoView.setText(roomTwoPercentV);
+        roomThreeView.setText(roomThreePercentV);
+        roomFourView.setText(roomFourPercentV);
 
         //initiate chart
         pieChart = (PieChart)findViewById(R.id.piechart);
@@ -100,18 +118,35 @@ public class StatisticsActivity extends AppCompatActivity {
         pieChart.setRotationEnabled(true);
         pieChart.setHighlightPerTapEnabled(true);
 
+        //set Animation
+        pieChart.animateY(2000, Easing.EasingOption.EaseInOutQuad);
+
 
         List<PieEntry> entries = new ArrayList<>();
-        entries.add(new PieEntry(Float.valueOf(roomOnePercent), "Room One"));
-        entries.add(new PieEntry(Float.valueOf(roomTwoPercent), "Room Two"));
-        entries.add(new PieEntry(Float.valueOf(roomThreePercent), "Room Three"));
-        entries.add(new PieEntry(Float.valueOf(roomFourPercent), "Room Four"));
+        entries.add(new PieEntry(roomOnePercent, "1"));
+        entries.add(new PieEntry(roomTwoPercent, "2"));
+        entries.add(new PieEntry(roomThreePercent, "3"));
+        entries.add(new PieEntry(roomFourPercent, "4"));
 
         PieDataSet set = new PieDataSet(entries, "");
-        set.setColors(ColorTemplate.COLORFUL_COLORS);
+        set.setColors(ColorTemplate.MATERIAL_COLORS);
+        set.setSliceSpace(3f);
+        set.setSelectionShift(5f);
+        set.setValueLinePart1OffsetPercentage(80.f);
+        set.setValueLinePart1Length(0.1f);
+        set.setValueLinePart2Length(0.1f);
+      //  set.setYValuePosition(PieDataSet.ValuePosition.OUTSIDE_SLICE);
+        set.setValueTextColor(Color.BLACK);
+
+
         PieData data = new PieData(set);
+        data.setValueTextSize(18f);
+        data.setValueTextColor(Color.BLACK);
+        data.setValueFormatter(new PercentFormatter());
         pieChart.setData(data);
         pieChart.invalidate();
+
+
 
         Legend l = pieChart.getLegend();
         l.setVerticalAlignment(Legend.LegendVerticalAlignment.TOP);

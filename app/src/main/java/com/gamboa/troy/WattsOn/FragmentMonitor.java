@@ -154,7 +154,7 @@ public class FragmentMonitor extends Fragment {
                             //add a new bar entry including the parsed json value.
                             barEntry.add(new BarEntry(1, roomOneNumber));
                             Bardataset = new BarDataSet(barEntry, "Current Energy Consumption");
-                            Bardataset.setColors(ColorTemplate.PASTEL_COLORS);
+                            Bardataset.setColors(ColorTemplate.MATERIAL_COLORS);
                             data = new BarData(Bardataset);
 
                             mChart.setData(data);
@@ -211,7 +211,7 @@ public class FragmentMonitor extends Fragment {
 
                             barEntry.add(new BarEntry(2, roomTwoNumber));
                             Bardataset2 = new BarDataSet(barEntry, "Current Energy Consumption");
-                            Bardataset2.setColors(ColorTemplate.PASTEL_COLORS);
+                            Bardataset2.setColors(ColorTemplate.MATERIAL_COLORS);
                             data = new BarData(Bardataset2);
 
                             mChart.setData(data);
@@ -256,7 +256,7 @@ public class FragmentMonitor extends Fragment {
 
                                 barEntry.add(new BarEntry(3, roomThreeNumber));
                                 Bardataset3 = new BarDataSet(barEntry, "Current Energy Consumption");
-                                Bardataset3.setColors(ColorTemplate.PASTEL_COLORS);
+                                Bardataset3.setColors(ColorTemplate.MATERIAL_COLORS);
                                 data = new BarData(Bardataset3);
 
                                 mChart.setData(data);
@@ -307,7 +307,7 @@ public class FragmentMonitor extends Fragment {
 
                                 barEntry.add(new BarEntry(4, roomFourNumber));
                                 Bardataset4 = new BarDataSet(barEntry, "Current Energy Consumption");
-                                Bardataset4.setColors(ColorTemplate.PASTEL_COLORS);
+                                Bardataset4.setColors(ColorTemplate.MATERIAL_COLORS);
                                 data = new BarData(Bardataset4);
 
                                 mChart.setData(data);
