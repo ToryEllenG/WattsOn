@@ -9,6 +9,9 @@ Repository for Android application created and maintained by Troy Gamboa.
 
 ![Login Page](http://i.imgur.com/rZrlPdD.png "Screenshot of Login Page") ![Data Page](http://i.imgur.com/P8EFs51.png "Screenshot of Data Page")
 
+**(4/3/17)**
+	The app no longer uses a line graph to plot data. In its place, a bar chart (Using the MPAndroidChart Library) has been placed as the main monitoring function. This bar graph now takes data collected from our API server, while showing the values below in a table format. The API that the bargraph accesses is providing the app with the current value for "kWh" in the databased, ordered by the room id number. There are four rooms in the proposed house that the app will take data from, which is reflected in the bargraph. The "View Statistics" Button presents the user with a new page that takes the data shown in the bargraph, and calculates the total, average, percent usage by room values. The percent usage values are then placed into an interactive piechart (Also using the MPAndroidChart Library) for a more visually pleasing environment. 
+
 
 **(3/14/17)**
 	Looking into different ways to show the data in a real time graph. While the application currently uses a random function displayed through the GraphView Library, I have been looking at alternative methods that might present the data to the user in a smoother fashion. The most notable of these methods includes MPAndroidChart, which I have made a mock page of. The API has another method of which returns all of the data from the HouseEnergy table (encoded in JSON) in the database. This will be used to populate the graphview in the future. 
