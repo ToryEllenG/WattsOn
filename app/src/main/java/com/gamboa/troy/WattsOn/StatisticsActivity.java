@@ -2,16 +2,10 @@ package com.gamboa.troy.WattsOn;
 //Credit Molly Bohan for Pie Chart Idea
 
 import android.graphics.Color;
-import android.icu.text.DecimalFormat;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.text.SpannableString;
-import android.text.style.ForegroundColorSpan;
-import android.text.style.RelativeSizeSpan;
-import android.text.style.StyleSpan;
 import android.widget.TextView;
-
 import com.github.mikephil.charting.animation.Easing;
 import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.components.Legend;
@@ -20,11 +14,6 @@ import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.data.PieEntry;
 import com.github.mikephil.charting.formatter.PercentFormatter;
 import com.github.mikephil.charting.utils.ColorTemplate;
-import com.jjoe64.graphview.GraphView;
-import com.jjoe64.graphview.ValueDependentColor;
-import com.jjoe64.graphview.series.BarGraphSeries;
-import com.jjoe64.graphview.series.DataPoint;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
@@ -39,7 +28,6 @@ public class StatisticsActivity extends AppCompatActivity {
     Toolbar statsToolBar;
     TextView totalView, averageView, roomOneView, roomTwoView, roomThreeView, roomFourView;
     private PieChart pieChart;
-    private Object Typeface;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -121,13 +109,14 @@ public class StatisticsActivity extends AppCompatActivity {
         //set Animation
         pieChart.animateY(2000, Easing.EasingOption.EaseInOutQuad);
 
-
+        //add float values to entry list
         List<PieEntry> entries = new ArrayList<>();
         entries.add(new PieEntry(roomOnePercent, "1"));
         entries.add(new PieEntry(roomTwoPercent, "2"));
         entries.add(new PieEntry(roomThreePercent, "3"));
         entries.add(new PieEntry(roomFourPercent, "4"));
 
+        //dataset properties
         PieDataSet set = new PieDataSet(entries, "");
         set.setColors(ColorTemplate.MATERIAL_COLORS);
         set.setSliceSpace(3f);
@@ -135,10 +124,10 @@ public class StatisticsActivity extends AppCompatActivity {
         set.setValueLinePart1OffsetPercentage(80.f);
         set.setValueLinePart1Length(0.1f);
         set.setValueLinePart2Length(0.1f);
-      //  set.setYValuePosition(PieDataSet.ValuePosition.OUTSIDE_SLICE);
+        //set.setYValuePosition(PieDataSet.ValuePosition.OUTSIDE_SLICE); uncomment to put percent values outside of pie
         set.setValueTextColor(Color.BLACK);
 
-
+        //data properties
         PieData data = new PieData(set);
         data.setValueTextSize(18f);
         data.setValueTextColor(Color.BLACK);
@@ -146,8 +135,7 @@ public class StatisticsActivity extends AppCompatActivity {
         pieChart.setData(data);
         pieChart.invalidate();
 
-
-
+        //legend properties
         Legend l = pieChart.getLegend();
         l.setVerticalAlignment(Legend.LegendVerticalAlignment.TOP);
         l.setHorizontalAlignment(Legend.LegendHorizontalAlignment.RIGHT);
