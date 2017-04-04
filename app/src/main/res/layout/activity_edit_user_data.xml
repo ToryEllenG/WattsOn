@@ -16,7 +16,7 @@
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         />
 
-    <EditText
+    <TextView
         android:id="@+id/changeUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,32 +25,32 @@
         android:layout_alignRight="@+id/textView10"
         android:layout_alignStart="@+id/textView10"
         android:layout_below="@+id/textView10"
-        android:ems="5"
         android:inputType="textPersonName"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="105dp"
+        android:layout_marginTop="29dp"
         android:text="Username:"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_below="@+id/my_toolbar"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/changeUsername"
-        android:layout_marginTop="18dp"
-        android:layout_toLeftOf="@+id/changeUsername"
-        android:layout_toStartOf="@+id/changeUsername"
+        android:layout_marginTop="28dp"
         android:text="First Name:"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_below="@+id/changeUsername"
+        android:layout_toLeftOf="@+id/changeUsername"
+        android:layout_toStartOf="@+id/changeUsername" />
 
     <EditText
         android:id="@+id/changeFname"
@@ -94,11 +94,12 @@
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
         android:text="Registered Email Address:"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/changeFname"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:id="@+id/changeEmail"
@@ -117,12 +118,12 @@
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/changeEmail"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="47dp"
         android:text="Phone Number:"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_below="@+id/changeEmail"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:id="@+id/changePhone"
@@ -141,8 +142,8 @@
         android:id="@+id/changeInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="26dp"
         android:text="Update your information!"
+        android:layout_marginTop="26dp"
         android:layout_below="@+id/changePhone"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>

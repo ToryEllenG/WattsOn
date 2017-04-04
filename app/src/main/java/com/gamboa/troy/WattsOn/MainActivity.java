@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private int[] tabIcons = {
             R.drawable.ic_home,
             R.drawable.ic_timeline,
-            R.drawable.ic_settings
+            R.drawable.ic_settings_applications
     };
 
     @Override

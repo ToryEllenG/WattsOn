@@ -1,31 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="23"
     build-mode="COLD"
     density="560dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1491267130499"
+    timestamp="1491327937993"
     token="8851136750828380136"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="361" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="55" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
+
+    <artifact
+        location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/root/AndroidStudioProjects/WattsOn/app/build/outputs/apk/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1491267084526"
+        timestamp="1491325374560"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -66,7 +73,22 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1491267130499"
-        verifier="COLD_SWAP_REQUESTED" />
+        timestamp="1491327844357"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/root/AndroidStudioProjects/WattsOn/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1491327937993"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/root/AndroidStudioProjects/WattsOn/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
 
 </instant-run>

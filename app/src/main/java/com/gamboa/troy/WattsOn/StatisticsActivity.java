@@ -1,5 +1,5 @@
 package com.gamboa.troy.WattsOn;
-//Credit Molly Bohan for Pie Chart Idea
+
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -105,6 +105,7 @@ public class StatisticsActivity extends AppCompatActivity {
         // enable rotation of the chart by touch
         pieChart.setRotationEnabled(true);
         pieChart.setHighlightPerTapEnabled(true);
+        pieChart.setHoleRadius(50);
 
         //set Animation
         pieChart.animateY(2000, Easing.EasingOption.EaseInOutQuad);
@@ -129,10 +130,11 @@ public class StatisticsActivity extends AppCompatActivity {
 
         //data properties
         PieData data = new PieData(set);
-        data.setValueTextSize(18f);
+        data.setValueTextSize(16f);
         data.setValueTextColor(Color.BLACK);
         data.setValueFormatter(new PercentFormatter());
         pieChart.setData(data);
+        pieChart.notifyDataSetChanged();
         pieChart.invalidate();
 
         //legend properties

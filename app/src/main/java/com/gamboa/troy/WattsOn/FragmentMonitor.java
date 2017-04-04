@@ -1,6 +1,7 @@
 package com.gamboa.troy.WattsOn;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.util.Log;
@@ -16,6 +17,9 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
 import com.github.mikephil.charting.charts.BarChart;
+import com.github.mikephil.charting.components.Legend;
+import com.github.mikephil.charting.components.LegendEntry;
+import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;
@@ -47,7 +51,7 @@ public class FragmentMonitor extends Fragment {
 
     String jsonResponse, jsonResponse2, jsonResponse3, jsonResponse4;
     BarDataSet Bardataset, Bardataset2, Bardataset3, Bardataset4;
-    BarData data;
+    BarData data, data1;
     public List<BarEntry> barEntry;
 
     public FragmentMonitor(){
@@ -85,6 +89,14 @@ public class FragmentMonitor extends Fragment {
 
         mChart.animateY(3000);
         mChart.getDescription().setEnabled(false);
+
+        XAxis xAxis = mChart.getXAxis();
+        xAxis.setDrawLabels(false);
+
+        Legend l = mChart.getLegend();
+        l.setHorizontalAlignment(Legend.LegendHorizontalAlignment.CENTER);
+        l.setEnabled(true);
+
         mChart.setFitBars(true);
         mChart.notifyDataSetChanged();
         mChart.invalidate();
@@ -94,7 +106,8 @@ public class FragmentMonitor extends Fragment {
         clear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //call refresh later
+                //getFragmentManager().beginTransaction().detach(this).attach(this).commit();
+
                 }
 
         });
@@ -123,7 +136,6 @@ public class FragmentMonitor extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-
     }
 
    //custom methods to parse Json based on Room number
@@ -154,10 +166,10 @@ public class FragmentMonitor extends Fragment {
                             //add a new bar entry including the parsed json value.
                             barEntry.add(new BarEntry(1, roomOneNumber));
                             Bardataset = new BarDataSet(barEntry, "Current Energy Consumption");
-                            Bardataset.setColors(ColorTemplate.MATERIAL_COLORS);
-                            data = new BarData(Bardataset);
+                            Bardataset.setColor(Color.RED);
+                            data1 = new BarData(Bardataset);
 
-                            mChart.setData(data);
+                            mChart.setData(data1);
 
                             Intent roomOnePass= new Intent(getActivity(), FragmentMonitor.class);
                             Bundle extras = new Bundle();
