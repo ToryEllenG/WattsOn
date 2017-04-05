@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="023c5e9649407e901377c7994b87cd3249aefabd">
+        sha1="1cafaf09ca15a6347a3aa0f1d58344d87cec208a">
         <dex dex="/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d5ba1501d868162319cfe06edac635c75e55c535/classes.dex" />
     </item>
     <item

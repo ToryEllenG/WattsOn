@@ -26,7 +26,6 @@ public class FragmentSettings extends PreferenceFragmentCompat  {
 
         //variables for settings entities
         Preference openAbout = findPreference("keyAbout");
-        Preference openContact = findPreference("keyContact");
         Preference openHouseRegister = findPreference("openHouseRegister");
         Preference openUser = findPreference("openUser");
         Preference openStats = findPreference("stats");
@@ -37,16 +36,6 @@ public class FragmentSettings extends PreferenceFragmentCompat  {
             public boolean onPreferenceClick(Preference preference) {
                 Intent openStats = new Intent(getActivity(), AboutActivity.class);
                 startActivity(openStats);
-                return false;
-            }
-        });
-
-        //preference intent for Contact Activity
-        openContact.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-            @Override
-            public boolean onPreferenceClick(Preference preference) {
-                Intent open = new Intent(getActivity(), ContactActivity.class);
-                startActivity(open);
                 return false;
             }
         });

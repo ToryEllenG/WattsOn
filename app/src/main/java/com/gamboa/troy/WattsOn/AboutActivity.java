@@ -17,6 +17,7 @@ import android.widget.ImageButton;
 public class AboutActivity extends AppCompatActivity {
 
     Toolbar aboutToolbar;
+    ImageButton instagram, facebook, twitter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,15 +33,35 @@ public class AboutActivity extends AppCompatActivity {
         aboutToolbar.setTitleTextColor(Color.WHITE);
 
         //image button actions
-        ImageButton isatButton = (ImageButton)findViewById(R.id.imageView2);
+        instagram = (ImageButton)findViewById(R.id.instagramBT);
+        facebook = (ImageButton) findViewById(R.id.facebookBT);
+        twitter = (ImageButton)findViewById(R.id.twitterBT);
 
-        isatButton.setOnClickListener(new View.OnClickListener() {
+
+        instagram.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("http://www.jmu.edu/isat/"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://www.instagram.com/Watts_On306/?hl=en"));
                 startActivity(browserIntent);
             }
         });
+
+        facebook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://www.facebook.com/WattsOn306"));
+                startActivity(browserIntent);
+            }
+        });
+
+        twitter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://twitter.com/Watts_On306"));
+                startActivity(browserIntent);
+            }
+        });
+
     }
 
     @Override

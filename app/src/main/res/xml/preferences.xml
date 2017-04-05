@@ -46,12 +46,6 @@
             >
         </Preference>
 
-        <Preference
-            android:title="Contact Us"
-            android:key="keyContact"
-            >
-        </Preference>
-
     </PreferenceCategory>
 
 </PreferenceScreen>

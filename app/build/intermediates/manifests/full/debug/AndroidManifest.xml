@@ -31,7 +31,6 @@
         <activity android:name="com.gamboa.troy.WattsOn.HouseDataActivity" />
         <activity android:name="com.gamboa.troy.WattsOn.LoginActivity" />
         <activity android:name="com.gamboa.troy.WattsOn.HouseRegisterActivity" />
-        <activity android:name="com.gamboa.troy.WattsOn.ContactActivity" />
         <activity android:name="com.gamboa.troy.WattsOn.ShowUserData" />
         <activity android:name="com.gamboa.troy.WattsOn.EditUserData" />
     </application>
