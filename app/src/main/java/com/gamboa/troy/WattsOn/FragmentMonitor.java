@@ -2,6 +2,7 @@ package com.gamboa.troy.WattsOn;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Paint;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.util.Log;
@@ -17,13 +18,16 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
 import com.github.mikephil.charting.charts.BarChart;
+import com.github.mikephil.charting.charts.Chart;
 import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.components.LegendEntry;
 import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;
+import com.github.mikephil.charting.listener.OnChartGestureListener;
 import com.github.mikephil.charting.utils.ColorTemplate;
+import com.github.mikephil.charting.utils.Utils;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -47,7 +51,7 @@ public class FragmentMonitor extends Fragment {
     String JsonURL2 = "http://54.152.50.236/getEnergy2.php";
     String JsonURL3 = "http://54.152.50.236/getEnergy3.php";
     String JsonURL4 = "http://54.152.50.236/getEnergy4.php";
-   public float roomOneNumber, roomTwoNumber, roomThreeNumber, roomFourNumber;
+    public float roomOneNumber, roomTwoNumber, roomThreeNumber, roomFourNumber;
 
     String jsonResponse, jsonResponse2, jsonResponse3, jsonResponse4;
     BarDataSet Bardataset, Bardataset2, Bardataset3, Bardataset4;
@@ -87,16 +91,24 @@ public class FragmentMonitor extends Fragment {
         fetchRoomThree();
         fetchRoomFour();
 
+        //chart attributes
         mChart.animateY(3000);
         mChart.getDescription().setEnabled(false);
+        mChart.setPinchZoom(true);
+        //mChart.setDrawGridBackground(true);
+        mChart.setDrawBorders(true);
+        mChart.setFitBars(true);
+        mChart.setDrawValueAboveBar(true);
 
+
+        // Don't show xaxis labels
         XAxis xAxis = mChart.getXAxis();
         xAxis.setDrawLabels(false);
 
+        //set legend
         Legend l = mChart.getLegend();
         l.setHorizontalAlignment(Legend.LegendHorizontalAlignment.CENTER);
         l.setEnabled(true);
-
         mChart.setFitBars(true);
         mChart.notifyDataSetChanged();
         mChart.invalidate();
@@ -108,7 +120,7 @@ public class FragmentMonitor extends Fragment {
             public void onClick(View v) {
                 //getFragmentManager().beginTransaction().detach(this).attach(this).commit();
 
-                }
+            }
 
         });
 
@@ -138,7 +150,7 @@ public class FragmentMonitor extends Fragment {
         super.onResume();
     }
 
-   //custom methods to parse Json based on Room number
+    //custom methods to parse Json based on Room number
     private void fetchRoomOne() {
 
         JsonArrayRequest req = new JsonArrayRequest(JsonURL,

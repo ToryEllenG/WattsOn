@@ -29,7 +29,9 @@
         <activity android:name="com.gamboa.troy.WattsOn.RegisterActivity" />
         <activity android:name="com.gamboa.troy.WattsOn.AboutActivity" />
         <activity android:name="com.gamboa.troy.WattsOn.HouseDataActivity" />
-        <activity android:name="com.gamboa.troy.WattsOn.LoginActivity" />
+        <activity
+            android:name="com.gamboa.troy.WattsOn.LoginActivity"
+            android:windowSoftInputMode="stateHidden" />
         <activity android:name="com.gamboa.troy.WattsOn.HouseRegisterActivity" />
         <activity android:name="com.gamboa.troy.WattsOn.ShowUserData" />
         <activity android:name="com.gamboa.troy.WattsOn.EditUserData" />

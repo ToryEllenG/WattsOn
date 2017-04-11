@@ -23,10 +23,13 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".AboutActivity" />
         <activity android:name=".HouseDataActivity" />
-        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:windowSoftInputMode="stateHidden" />
         <activity android:name=".HouseRegisterActivity" />
         <activity android:name=".ShowUserData" />
-        <activity android:name=".EditUserData"></activity>
+        <activity android:name=".EditUserData" />
+        <activity android:name=".ChangePassword"></activity>
     </application>
 
 </manifest>

@@ -10,7 +10,7 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="19dp"
         android:text="Username:"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -136,6 +136,14 @@
         android:layout_marginTop="26dp"
         android:text="Edit your information"
         android:layout_below="@+id/phoneResponseTV"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/changePassBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change your Password"
+        android:layout_below="@+id/editBT"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

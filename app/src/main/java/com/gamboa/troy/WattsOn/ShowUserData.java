@@ -20,7 +20,7 @@ public class ShowUserData extends AppCompatActivity {
 
     Toolbar profileToolbar;
     TextView usernameView, firstNameView, lastNameView, emailView, phoneView;
-    Button editData;
+    Button editData, changePass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +35,7 @@ public class ShowUserData extends AppCompatActivity {
         profileToolbar.setTitleTextColor(Color.WHITE);
 
         editData = (Button) findViewById(R.id.editBT);
+        changePass = (Button) findViewById(R.id.changePassBT);
 
         usernameView = (TextView) findViewById(R.id.unameResponseTV);
         firstNameView = (TextView) findViewById(R.id.fnameResponseTV);
@@ -43,6 +44,7 @@ public class ShowUserData extends AppCompatActivity {
         phoneView = (TextView) findViewById(R.id.phoneResponseTV);
 
         String username =  getIntent().getExtras().getString("username");
+        final String passwordGet = getIntent().getExtras().getString("password");
 
            Response.Listener<String> responseListener = new Response.Listener<String>() {
                @Override
@@ -82,6 +84,17 @@ public class ShowUserData extends AppCompatActivity {
                            }
                        });
 
+                       //intent to change Password activity
+                       changePass.setOnClickListener(new View.OnClickListener(){
+                           @Override
+                           public void onClick(View v) {
+                               Intent changePass = new Intent(ShowUserData.this, ChangePassword.class);
+                               Bundle extras = new Bundle();
+                               extras.putString("password", passwordGet);
+                               startActivity(changePass);
+                           }
+                       });
+
                    } catch (JSONException e) {
                        e.printStackTrace();
                    }
@@ -91,6 +104,8 @@ public class ShowUserData extends AppCompatActivity {
            ShowUserDataRequest showUserDataRequest = new ShowUserDataRequest(username,responseListener);
            RequestQueue queue = Volley.newRequestQueue(ShowUserData.this);
            queue.add(showUserDataRequest);
+
+
 
 }
 

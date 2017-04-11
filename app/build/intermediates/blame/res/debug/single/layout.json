@@ -172,6 +172,10 @@
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_register.xml"
     },
     {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_change_password.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_change_password.xml"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_about.xml",
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_about.xml"
     },

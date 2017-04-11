@@ -77,10 +77,12 @@ public class LoginActivity extends AppCompatActivity{
                             //if user is registered, go to Main Activity, and put Extra string "username" for welcome message
                             if (success){
                                 String username = jsonResponse.getString("username");
+                                String password = jsonResponse.getString("password");
                                 Intent loginIntent = new Intent(LoginActivity.this, MainActivity.class);
                                 //Bundle to store username
                                 Bundle extras = new Bundle();
                                 extras.putString("username", username);
+                                extras.putString("password", password);
                                 loginIntent.putExtras(extras);
                                 startActivity(loginIntent);
                             }
