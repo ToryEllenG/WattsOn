@@ -1,4 +1,4 @@
-package com.gamboa.troy.HomeEnergyAudit;
+package com.gamboa.troy.WattsOn;
 
 import com.android.volley.Response;
 import com.android.volley.toolbox.StringRequest;
@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class ChangePassRequest extends StringRequest {
 
-    private static final String LOGIN_REQUEST_URL = "http://54.152.50.236/phpAPI/changePass.php";
+    private static final String LOGIN_REQUEST_URL = "http://54.152.50.236/changePass.php";
     private Map<String, String> params;
 
     public ChangePassRequest(String username, String oldPassword, String password, String newPassword, Response.Listener<String> listener) {

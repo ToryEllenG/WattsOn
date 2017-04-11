@@ -20,6 +20,7 @@ public class ShowUserData extends AppCompatActivity {
 
     Toolbar profileToolbar;
     TextView usernameView, firstNameView, lastNameView, emailView, phoneView;
+
     Button editData, changePass;
 
     @Override
@@ -44,9 +45,8 @@ public class ShowUserData extends AppCompatActivity {
         phoneView = (TextView) findViewById(R.id.phoneResponseTV);
 
         String username =  getIntent().getExtras().getString("username");
-        final String passwordGet = getIntent().getExtras().getString("password");
 
-           Response.Listener<String> responseListener = new Response.Listener<String>() {
+        Response.Listener<String> responseListener = new Response.Listener<String>() {
                @Override
                public void onResponse(String response) {
 
@@ -58,6 +58,7 @@ public class ShowUserData extends AppCompatActivity {
                        final String username = jsonResponse.getString("username");
                        final String firstName = jsonResponse.getString("firstName");
                        final String lastName = jsonResponse.getString("lastName");
+                       final String pass = jsonResponse.getString("password");
                        final String email = jsonResponse.getString("email");
                        final String phone = jsonResponse.getString("phone");
 
@@ -88,12 +89,16 @@ public class ShowUserData extends AppCompatActivity {
                        changePass.setOnClickListener(new View.OnClickListener(){
                            @Override
                            public void onClick(View v) {
+
                                Intent changePass = new Intent(ShowUserData.this, ChangePassword.class);
-                               Bundle extras = new Bundle();
-                               extras.putString("password", passwordGet);
+                               Bundle extras1 = new Bundle();
+                               extras1.putString("username", username);
+                               extras1.putString("password", pass);
+                               changePass.putExtras(extras1);
                                startActivity(changePass);
                            }
                        });
+
 
                    } catch (JSONException e) {
                        e.printStackTrace();

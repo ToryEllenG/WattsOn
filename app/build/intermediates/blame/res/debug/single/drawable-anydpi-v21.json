@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
-        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
-        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
     }
 ]

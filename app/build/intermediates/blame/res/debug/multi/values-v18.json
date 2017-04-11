@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
+        "outputFile": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/values-v18/values-v18.xml",
+                    "file": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/values-v18/values-v18.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

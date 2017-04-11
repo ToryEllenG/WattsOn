@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
+        "outputFile": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 519
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/dec67511409cca956d4b8e0cb4b4bc8bd4557fca/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e845284418dbde19547651a2de4efe9d0ecca743/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -33,7 +33,7 @@
                     "endOffset": 1006
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/dec67511409cca956d4b8e0cb4b4bc8bd4557fca/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e845284418dbde19547651a2de4efe9d0ecca743/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -54,7 +54,7 @@
                     "endOffset": 1521
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/dec67511409cca956d4b8e0cb4b4bc8bd4557fca/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e845284418dbde19547651a2de4efe9d0ecca743/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -75,7 +75,7 @@
                     "endOffset": 1690
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/dec67511409cca956d4b8e0cb4b4bc8bd4557fca/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e845284418dbde19547651a2de4efe9d0ecca743/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -96,7 +96,7 @@
                     "endOffset": 2171
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/dec67511409cca956d4b8e0cb4b4bc8bd4557fca/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e845284418dbde19547651a2de4efe9d0ecca743/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -117,7 +117,7 @@
                     "endOffset": 2680
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/dec67511409cca956d4b8e0cb4b4bc8bd4557fca/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e845284418dbde19547651a2de4efe9d0ecca743/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -138,7 +138,7 @@
                     "endOffset": 2846
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/dec67511409cca956d4b8e0cb4b4bc8bd4557fca/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e845284418dbde19547651a2de4efe9d0ecca743/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 4,
@@ -159,7 +159,7 @@
                     "endOffset": 3006
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/dec67511409cca956d4b8e0cb4b4bc8bd4557fca/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e845284418dbde19547651a2de4efe9d0ecca743/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 50,
                         "startColumn": 4,
@@ -180,7 +180,7 @@
                     "endOffset": 3231
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/80d31991c223ddebb5356d754aca5225dc14c3b5/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/5f3bf5659cb9e1b02b45c7c13ae8331f55331ba2/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 3392
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/80d31991c223ddebb5356d754aca5225dc14c3b5/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/5f3bf5659cb9e1b02b45c7c13ae8331f55331ba2/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -222,7 +222,7 @@
                     "endOffset": 3560
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/ba7a168f9729e9113a239b8891ef14d6a604f5e5/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -243,7 +243,7 @@
                     "endOffset": 3874
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/dec67511409cca956d4b8e0cb4b4bc8bd4557fca/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e845284418dbde19547651a2de4efe9d0ecca743/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 4,
@@ -264,7 +264,7 @@
                     "endOffset": 4047
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -285,7 +285,7 @@
                     "endOffset": 4275
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -306,7 +306,7 @@
                     "endOffset": 4433
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -327,7 +327,7 @@
                     "endOffset": 4583
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -348,7 +348,7 @@
                     "endOffset": 4755
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -369,7 +369,7 @@
                     "endOffset": 4983
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -390,7 +390,7 @@
                     "endOffset": 5225
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -411,7 +411,7 @@
                     "endOffset": 5396
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -432,7 +432,7 @@
                     "endOffset": 5570
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -453,7 +453,7 @@
                     "endOffset": 5739
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -474,7 +474,7 @@
                     "endOffset": 6012
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -495,7 +495,7 @@
                     "endOffset": 6212
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
@@ -516,7 +516,7 @@
                     "endOffset": 6416
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
@@ -537,7 +537,7 @@
                     "endOffset": 6745
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/values-v17/values-v17.xml",
+                    "file": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/values-v17/values-v17.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 4,

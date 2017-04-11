@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     }
 ]

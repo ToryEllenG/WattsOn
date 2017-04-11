@@ -1,22 +1,22 @@
 [
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/instagram.png",
+        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/mipmap-xxxhdpi/instagram.png"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/facebook.png",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/mipmap-xxxhdpi/facebook.png"
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/duke_dog.png",
+        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/mipmap-xxxhdpi/duke_dog.png"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/instagram.png",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/mipmap-xxxhdpi/instagram.png"
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/twitter.png",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/mipmap-xxxhdpi/twitter.png"
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/twitter.png",
+        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/mipmap-xxxhdpi/twitter.png"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/duke_dog.png",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/mipmap-xxxhdpi/duke_dog.png"
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/facebook.png",
+        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/mipmap-xxxhdpi/facebook.png"
     }
 ]

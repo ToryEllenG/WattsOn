@@ -1,22 +1,22 @@
 [
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xhdpi/duke_dog.png",
+        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/mipmap-xhdpi/duke_dog.png"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xhdpi/facebook.png",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/mipmap-xhdpi/facebook.png"
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xhdpi/facebook.png",
+        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/mipmap-xhdpi/facebook.png"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xhdpi/instagram.png",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/mipmap-xhdpi/instagram.png"
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xhdpi/duke_dog.png",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/mipmap-xhdpi/duke_dog.png"
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xhdpi/instagram.png",
+        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/mipmap-xhdpi/instagram.png"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xhdpi/twitter.png",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/mipmap-xhdpi/twitter.png"
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/mipmap-xhdpi/twitter.png",
+        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/mipmap-xhdpi/twitter.png"
     }
 ]
