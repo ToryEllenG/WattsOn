@@ -1,7 +1,4 @@
-#Tue Apr 11 12:58:37 EDT 2017
-base.0=/Users/xcituser/Desktop/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1f2b34196e5f0041f97ff48fbcb8ab6c4ff658e6
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/xcituser/Desktop/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d263e819a8ed456e7323856898b1bf5aa0917e56/classes.dex
-base.1=/Users/xcituser/Desktop/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d263e819a8ed456e7323856898b1bf5aa0917e56
-file.0=/Users/xcituser/Desktop/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1f2b34196e5f0041f97ff48fbcb8ab6c4ff658e6/classes.dex
+#Tue Apr 11 14:53:01 EDT 2017
+base.0=/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

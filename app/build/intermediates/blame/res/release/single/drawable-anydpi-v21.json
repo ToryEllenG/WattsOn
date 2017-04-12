@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    }
+]

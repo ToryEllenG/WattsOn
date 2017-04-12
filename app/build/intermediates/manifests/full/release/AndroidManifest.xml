@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gamboa.troy.realtimelinegraph"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme" >
+        <activity android:name="com.gamboa.troy.WattsOn.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.gamboa.troy.WattsOn.AboutActivity" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gamboa.troy.WattsOn.MainActivity" />
+        <activity android:name="com.gamboa.troy.WattsOn.StatisticsActivity" />
+        <activity android:name="com.gamboa.troy.WattsOn.RegisterActivity" />
+        <activity android:name="com.gamboa.troy.WattsOn.AboutActivity" />
+        <activity android:name="com.gamboa.troy.WattsOn.HouseDataActivity" />
+        <activity
+            android:name="com.gamboa.troy.WattsOn.LoginActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.gamboa.troy.WattsOn.HouseRegisterActivity" />
+        <activity android:name="com.gamboa.troy.WattsOn.ShowUserData" />
+        <activity android:name="com.gamboa.troy.WattsOn.EditUserData" />
+        <activity android:name="com.gamboa.troy.WattsOn.ChangePassword" />
+    </application>
+
+</manifest>

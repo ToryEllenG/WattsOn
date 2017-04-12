@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_show_user_data"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gamboa.troy.WattsOn.ShowUserData">
+
+    <TextView
+        android:id="@+id/usernameTEST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="Username:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/my_toolbar"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="First Name:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/usernameTEST"
+        android:layout_toLeftOf="@+id/usernameTEST"
+        android:layout_toStartOf="@+id/usernameTEST" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_toRightOf="@+id/usernameTEST"
+        android:layout_toEndOf="@+id/usernameTEST" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="Registered Email Address:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:text="Phone Number:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/unameResponseTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:layout_below="@+id/usernameTEST"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/fnameResponseTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="13dp"
+        android:layout_toLeftOf="@+id/textView13"
+        android:layout_toStartOf="@+id/textView13"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lnameResponseTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/fnameResponseTV"
+        android:layout_alignBottom="@+id/fnameResponseTV"
+        android:layout_alignEnd="@+id/textView12"
+        android:layout_alignRight="@+id/textView12"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/emailResponseTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@+id/textView7"
+        android:layout_toRightOf="@+id/textView7"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/phoneResponseTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/unameResponseTV"
+        android:layout_alignStart="@+id/unameResponseTV"
+        android:layout_below="@+id/textView13"
+        android:layout_marginTop="17dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/editBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="Edit your information"
+        android:layout_below="@+id/phoneResponseTV"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/changePassBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change your Password"
+        android:layout_below="@+id/editBT"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

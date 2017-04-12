@@ -4,11 +4,23 @@
         "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/menu/main_menu.xml"
     },
     {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/menu/main_menu.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/menu/main_menu.xml"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/menu/nav_drawer.xml",
         "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/menu/nav_drawer.xml"
     },
     {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/menu/nav_drawer.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/menu/nav_drawer.xml"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/menu/activity_nav_drawer_drawer.xml",
         "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/menu/activity_nav_drawer_drawer.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/menu/activity_nav_drawer_drawer.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/menu/activity_nav_drawer_drawer.xml"
     }
 ]

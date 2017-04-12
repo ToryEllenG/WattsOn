@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/mipmap-hdpi/instagram.png",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/mipmap-hdpi/instagram.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/mipmap-hdpi/twitter.png",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/mipmap-hdpi/twitter.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/mipmap-hdpi/facebook.png",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/mipmap-hdpi/facebook.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/mipmap-hdpi/duke_dog.png",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/mipmap-hdpi/duke_dog.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/mipmap-hdpi/ic_launcher.png",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]

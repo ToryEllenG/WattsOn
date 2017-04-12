@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/drawable-v21/ic_menu_send.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-v21/ic_menu_send.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/drawable-v21/avd_show_password.xml",
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/drawable-v21/preference_list_divider_material.xml",
+        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/drawable-v21/preference_list_divider_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/drawable-v21/design_password_eye.xml",
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/drawable-v21/ic_menu_share.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-v21/ic_menu_share.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/drawable-v21/ic_menu_manage.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-v21/ic_menu_manage.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/drawable-v21/avd_hide_password.xml",
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/drawable-v21/ic_menu_slideshow.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-v21/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/drawable-v21/ic_menu_camera.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-v21/ic_menu_camera.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/drawable-v21/ic_menu_gallery.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-v21/ic_menu_gallery.xml"
+    }
+]

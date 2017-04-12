@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]

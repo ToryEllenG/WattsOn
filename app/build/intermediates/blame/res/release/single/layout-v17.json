@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/layout-v17/preference_information_material.xml",
+        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout-v17/preference_information_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/layout-v17/preference_dropdown_material.xml",
+        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout-v17/preference_dropdown_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/layout-v17/preference_widget_seekbar_material.xml",
+        "source": "/root/.android/build-cache/dec67511409cca956d4b8e0cb4b4bc8bd4557fca/output/res/layout-v17/preference_widget_seekbar_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/layout-v17/preference_category_material.xml",
+        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout-v17/preference_category_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/layout-v17/preference_material.xml",
+        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout-v17/preference_material.xml"
+    }
+]

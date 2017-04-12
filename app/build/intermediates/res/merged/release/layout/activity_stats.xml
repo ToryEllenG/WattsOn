@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tView"
+        android:layout_alignStart="@+id/tView"
+        android:layout_below="@+id/my_toolbar"
+        android:layout_marginTop="32dp"
+        android:text="@string/total_consumption_kwh"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="32dp"
+        android:text="Room 1:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/average_consumption_kwh"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textview"
+        android:layout_alignLeft="@+id/textview"
+        android:layout_alignStart="@+id/textview" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:text="Room 2:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/roomOnePercent"
+        android:layout_toRightOf="@+id/roomOnePercent"
+        android:layout_toEndOf="@+id/roomOnePercent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tView"
+        android:layout_alignStart="@+id/tView"
+        android:layout_below="@+id/tView"
+        android:layout_marginTop="38dp"
+        android:text="Room 3:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_alignTop="@+id/textView19"
+        android:text="Room 4:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/totalTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textview"
+        android:layout_alignBottom="@+id/textview"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/textView14"
+        android:layout_toRightOf="@+id/textView14"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/averageTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignLeft="@+id/totalTV"
+        android:layout_alignStart="@+id/totalTV"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/roomOnePercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tView"
+        android:layout_alignBottom="@+id/tView"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/tView"
+        android:layout_toRightOf="@+id/tView"
+        android:text="TextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/roomThreePercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView19"
+        android:layout_alignLeft="@+id/roomOnePercent"
+        android:layout_alignStart="@+id/roomOnePercent"
+        android:text="TextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/roomTwoPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView18"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/textView18"
+        android:layout_toRightOf="@+id/textView18"
+        android:text="TextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/roomFourPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView20"
+        android:layout_alignLeft="@+id/roomTwoPercent"
+        android:layout_alignStart="@+id/roomTwoPercent"
+        android:text="TextView"
+        android:textSize="16sp" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechart"
+        android:layout_width="390dp"
+        android:layout_height="385dp"
+        android:layout_below="@+id/roomFourPercent"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    }
+]

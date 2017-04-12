@@ -1,5 +1,29 @@
 [
     {
+        "outputFile": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 65,
+                    "endOffset": 116
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/values-v16/values-v16.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 65,
+                        "endOffset": 116
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
         "map": [
             {

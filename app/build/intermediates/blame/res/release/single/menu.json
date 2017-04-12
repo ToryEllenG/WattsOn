@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/menu/main_menu.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/menu/main_menu.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/menu/activity_nav_drawer_drawer.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/menu/activity_nav_drawer_drawer.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/release/menu/nav_drawer.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/menu/nav_drawer.xml"
+    }
+]

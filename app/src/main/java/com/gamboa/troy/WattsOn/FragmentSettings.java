@@ -28,7 +28,8 @@ public class FragmentSettings extends PreferenceFragmentCompat  {
         Preference openAbout = findPreference("keyAbout");
         Preference openHouseRegister = findPreference("openHouseRegister");
         Preference openUser = findPreference("openUser");
-        Preference openStats = findPreference("stats");
+        Preference logOut = findPreference("keyLogout");
+       // Preference openStats = findPreference("stats");
 
         //preference intent for about activity
         openAbout.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
@@ -56,14 +57,14 @@ public class FragmentSettings extends PreferenceFragmentCompat  {
             }
         });
         //View Past comparisons
-        openStats.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-            @Override
-            public boolean onPreferenceClick(Preference preference) {
-                Intent open = new Intent(getActivity(), StatisticsActivity.class);
-                startActivity(open);
-                return false;
-            }
-        });
+       // openStats.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+         //   @Override
+          //  public boolean onPreferenceClick(Preference preference) {
+            //    Intent open = new Intent(getActivity(), StatisticsActivity.class);
+              //  startActivity(open);
+                //return false;
+            //}
+        //});
 
         //preference intent for House Register Activity. Make new activity and change this later
         openHouseRegister.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
@@ -71,6 +72,15 @@ public class FragmentSettings extends PreferenceFragmentCompat  {
             public boolean onPreferenceClick(Preference preference) {
                 Intent open = new Intent(getActivity(), HouseRegisterActivity.class);
                 startActivity(open);
+                return false;
+            }
+        });
+
+        logOut.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+            @Override
+            public boolean onPreferenceClick(Preference preference) {
+                Intent logout = new Intent(getActivity(), LoginActivity.class);
+                startActivity(logout);
                 return false;
             }
         });

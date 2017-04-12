@@ -20,22 +20,7 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory
-        android:title="General Settings">
-        <Preference
-            android:title="Energy Consumption Statements"
-            android:summary="View your past comparison statements."
-            android:key="stats"
-            >
-        </Preference>
 
-        <Preference
-            android:title="Graph Configuration"
-            android:summary="Change graph settings."
-            >
-        </Preference>
-
-    </PreferenceCategory>
 
     <PreferenceCategory
         android:title="Misc / Support">
@@ -44,6 +29,12 @@
             android:title="About"
             android:key="keyAbout"
             >
+
+        </Preference>
+
+        <Preference
+            android:title="Logout"
+            android:key="keyLogout">
         </Preference>
 
     </PreferenceCategory>

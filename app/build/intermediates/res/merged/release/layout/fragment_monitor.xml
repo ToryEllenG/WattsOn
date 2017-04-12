@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gamboa.troy.WattsOn.FragmentMonitor">
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:layout_width="350dip"
+        android:layout_height="200dip"
+        android:id="@+id/chart"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/view_statistics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewStatisticsBT"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/Room4DataTV"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/clearBT"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Data"
+        android:textSize="12sp"
+        android:layout_below="@+id/chart"
+        android:layout_alignLeft="@+id/chart"
+        android:layout_alignStart="@+id/chart" />
+
+    <TextView
+        android:id="@+id/Room1TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/clearBT"
+        android:layout_alignRight="@+id/clearBT"
+        android:layout_below="@+id/clearBT"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="Room 1:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Room2TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Room1TV"
+        android:layout_alignStart="@+id/Room1TV"
+        android:layout_below="@+id/Room1TV"
+        android:layout_marginTop="32dp"
+        android:text="Room 2:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Room3TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Room2TV"
+        android:layout_alignStart="@+id/Room2TV"
+        android:layout_below="@+id/Room2TV"
+        android:layout_marginTop="36dp"
+        android:text="Room 3:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Room4TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Room3TV"
+        android:layout_alignStart="@+id/Room3TV"
+        android:layout_below="@+id/Room3TV"
+        android:layout_marginTop="33dp"
+        android:text="Room 4:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/PowerTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/clearBT"
+        android:layout_alignBottom="@+id/clearBT"
+        android:layout_toEndOf="@+id/viewStatisticsBT"
+        android:layout_toRightOf="@+id/viewStatisticsBT"
+        android:text="Power (KwH):"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Room1DataTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Room2TV"
+        android:layout_alignEnd="@+id/PowerTV"
+        android:layout_alignRight="@+id/PowerTV"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:text="213" />
+
+    <TextView
+        android:id="@+id/Room2DataTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Room1DataTV"
+        android:layout_alignStart="@+id/Room1DataTV"
+        android:layout_alignTop="@+id/Room2TV"
+        android:text="234" />
+
+    <TextView
+        android:id="@+id/Room3DataTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Room4TV"
+        android:layout_alignEnd="@+id/Room2DataTV"
+        android:layout_alignRight="@+id/Room2DataTV"
+        android:text="345" />
+
+    <TextView
+        android:id="@+id/Room4DataTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Room4TV"
+        android:layout_alignLeft="@+id/Room3DataTV"
+        android:layout_alignStart="@+id/Room3DataTV"
+        android:text="456" />
+
+</RelativeLayout>

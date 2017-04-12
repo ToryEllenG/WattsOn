@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        android:text="This application was developed by James Madison University students enrolled in ISAT 306. "
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_below="@+id/my_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        android:text="The purpose of this applicaton is to provide a medium which allows the everyday homeowner to track how much energy is being consumed in their house in real time."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        android:text="The user will be able to see exactly how much energy is being used in the house, and what room(s) it is coming from, creating an effective way to know where to save costs."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignStart="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us Through Social Media!"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/instagramBT"
+        android:scaleType="fitCenter"
+        android:layout_width="75dip"
+        android:layout_height="75dip"
+        android:layout_marginTop="43dp"
+        android:background="@null"
+        app:srcCompat="@mipmap/instagram"
+        android:layout_below="@+id/textView21"
+        android:layout_alignLeft="@+id/textView21"
+        android:layout_alignStart="@+id/textView21" />
+
+    <ImageButton
+        android:id="@+id/facebookBT"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_width="75dip"
+        android:layout_height="75dip"
+        android:layout_alignTop="@+id/instagramBT"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/facebook" />
+
+    <ImageButton
+        android:id="@+id/twitterBT"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_width="75dip"
+        android:layout_height="75dip"
+        app:srcCompat="@mipmap/twitter"
+        android:layout_alignTop="@+id/facebookBT"
+        android:layout_alignRight="@+id/textView21"
+        android:layout_alignEnd="@+id/textView21" />
+
+</RelativeLayout>
