@@ -1,5 +1,549 @@
 [
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_house_register.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_house_register.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_house_register.xml",
+        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/layout/activity_house_register.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_widget_switch_compat.xml",
+        "source": "/root/.android/build-cache/80d31991c223ddebb5356d754aca5225dc14c3b5/output/res/layout/preference_widget_switch_compat.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_house_data.xml",
+        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/layout/activity_house_data.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_widget_switch.xml",
+        "source": "/Users/xcituser/.android/build-cache/ba7a168f9729e9113a239b8891ef14d6a604f5e5/output/res/layout/preference_widget_switch.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_dropdown_material.xml",
+        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout/preference_dropdown_material.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_widget_checkbox.xml",
+        "source": "/Users/xcituser/.android/build-cache/5f3bf5659cb9e1b02b45c7c13ae8331f55331ba2/output/res/layout/preference_widget_checkbox.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_category.xml",
+        "source": "/Users/admin3022/.android/build-cache/03397edfc16fa19867c26aa5e5935864e860ceec/output/res/layout/preference_category.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_information_material.xml",
+        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout/preference_information_material.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/fragment_home.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_stats.xml",
+        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/layout/activity_stats.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/fragment_monitor.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/fragment_monitor.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_information_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/fb01436855e179d97a1e602c85e6453e06866187/output/res/layout/preference_information_material.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/fb01436855e179d97a1e602c85e6453e06866187/output/res/layout/preference_material.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_information.xml",
+        "source": "/Users/admin3022/.android/build-cache/03397edfc16fa19867c26aa5e5935864e860ceec/output/res/layout/preference_information.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_stats.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_stats.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_widget_switch_compat.xml",
+        "source": "/Users/admin3022/.android/build-cache/03397edfc16fa19867c26aa5e5935864e860ceec/output/res/layout/preference_widget_switch_compat.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_material.xml",
+        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout/preference_material.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_show_user_data.xml",
+        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/layout/activity_show_user_data.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_house_data.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_house_data.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_widget_seekbar.xml",
+        "source": "/Users/xcituser/.android/build-cache/e845284418dbde19547651a2de4efe9d0ecca743/output/res/layout/preference_widget_seekbar.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/fragment_home.xml",
+        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_widget_seekbar.xml",
+        "source": "/root/.android/build-cache/dec67511409cca956d4b8e0cb4b4bc8bd4557fca/output/res/layout/preference_widget_seekbar.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_register.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_category.xml",
+        "source": "/root/.android/build-cache/80d31991c223ddebb5356d754aca5225dc14c3b5/output/res/layout/preference_category.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_dialog_edittext.xml",
+        "source": "/Users/admin3022/.android/build-cache/cd7761a94de1156ffa2472457a9d910b7f68db0a/output/res/layout/preference_dialog_edittext.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_category_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/fb01436855e179d97a1e602c85e6453e06866187/output/res/layout/preference_category_material.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_recyclerview.xml",
+        "source": "/Users/admin3022/.android/build-cache/03397edfc16fa19867c26aa5e5935864e860ceec/output/res/layout/preference_recyclerview.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/fragment_monitor.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/layout/fragment_monitor.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/fragment_monitor.xml",
+        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/layout/fragment_monitor.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_about.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_about.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_information_material.xml",
+        "source": "/Users/xcituser/.android/build-cache/ba7a168f9729e9113a239b8891ef14d6a604f5e5/output/res/layout/preference_information_material.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_dropdown_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/fb01436855e179d97a1e602c85e6453e06866187/output/res/layout/preference_dropdown_material.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_dropdown_material.xml",
+        "source": "/Users/xcituser/.android/build-cache/ba7a168f9729e9113a239b8891ef14d6a604f5e5/output/res/layout/preference_dropdown_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_widget_seekbar.xml",
+        "source": "/Users/admin3022/.android/build-cache/cd7761a94de1156ffa2472457a9d910b7f68db0a/output/res/layout/preference_widget_seekbar.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_list_fragment.xml",
+        "source": "/Users/xcituser/.android/build-cache/5f3bf5659cb9e1b02b45c7c13ae8331f55331ba2/output/res/layout/preference_list_fragment.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_edit_user_data.xml",
+        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_edit_user_data.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/notification_action.xml"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
         "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_layout_tab_icon.xml"
     },
@@ -20,10 +564,6 @@
         "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_alert_dialog_button_bar_material.xml"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_information.xml",
         "source": "/root/.android/build-cache/80d31991c223ddebb5356d754aca5225dc14c3b5/output/res/layout/preference_information.xml"
     },
@@ -40,36 +580,8 @@
         "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
-        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_layout_tab_text.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/notification_template_part_time.xml"
-    },
-    {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
         "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_text_input_password_icon.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_category.xml",
@@ -84,10 +596,6 @@
         "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_select_dialog_material.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
         "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/notification_template_custom_big.xml"
     },
@@ -96,64 +604,32 @@
         "source": "/Users/xcituser/.android/build-cache/ba7a168f9729e9113a239b8891ef14d6a604f5e5/output/res/layout/preference_material.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
-        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_navigation_item_header.xml"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
         "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_house_register.xml",
-        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/layout/activity_house_register.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_widget_switch_compat.xml",
-        "source": "/root/.android/build-cache/80d31991c223ddebb5356d754aca5225dc14c3b5/output/res/layout/preference_widget_switch_compat.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_house_data.xml",
-        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/layout/activity_house_data.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/notification_template_media.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_widget_switch.xml",
-        "source": "/Users/xcituser/.android/build-cache/ba7a168f9729e9113a239b8891ef14d6a604f5e5/output/res/layout/preference_widget_switch.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_screen_content_include.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_house_data.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_house_data.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
         "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_dropdown_material.xml",
-        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout/preference_dropdown_material.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_alert_dialog_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
         "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/notification_template_media_custom.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_widget_checkbox.xml",
-        "source": "/Users/xcituser/.android/build-cache/5f3bf5659cb9e1b02b45c7c13ae8331f55331ba2/output/res/layout/preference_widget_checkbox.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/notification_action_tombstone.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_about.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_about.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
@@ -168,60 +644,28 @@
         "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_menu_item_action_area.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
-        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_navigation_menu.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_information_material.xml",
-        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout/preference_information_material.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_list_menu_item_checkbox.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_register.xml",
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_register.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
-        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_layout_snackbar.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
-        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_navigation_menu.xml"
-    },
-    {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
         "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_stats.xml",
-        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/layout/activity_stats.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_widget_checkbox.xml",
         "source": "/root/.android/build-cache/80d31991c223ddebb5356d754aca5225dc14c3b5/output/res/layout/preference_widget_checkbox.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/fragment_monitor.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/fragment_monitor.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
-        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_bottom_navigation_item.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/layout/design_navigation_item_separator.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
         "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/notification_template_media_custom.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
-        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/layout/activity_login.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
@@ -232,12 +676,8 @@
         "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_screen_simple.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_list_menu_item_layout.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_list_menu_item_icon.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
@@ -248,8 +688,12 @@
         "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_action_menu_layout.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/layout/design_layout_tab_text.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_edit_user_data.xml",
@@ -260,16 +704,8 @@
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_splash.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
-        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_action_mode_bar.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_edit_user_data.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_edit_user_data.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
@@ -280,10 +716,6 @@
         "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout/preference_category_material.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/support_simple_spinner_dropdown_item.xml"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
@@ -292,12 +724,16 @@
         "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/notification_template_icon_group.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_action_bar_title_item.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/layout/design_navigation_menu_item.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
         "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/select_dialog_multichoice_material.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_about.xml",
@@ -308,20 +744,24 @@
         "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_widget_checkbox.xml",
+        "source": "/Users/admin3022/.android/build-cache/03397edfc16fa19867c26aa5e5935864e860ceec/output/res/layout/preference_widget_checkbox.xml"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
         "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/notification_template_lines_media.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_material.xml",
-        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout/preference_material.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/notification_template_media_custom.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_list_fragment.xml",
+        "source": "/Users/admin3022/.android/build-cache/03397edfc16fa19867c26aa5e5935864e860ceec/output/res/layout/preference_list_fragment.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_show_user_data.xml",
-        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/layout/activity_show_user_data.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_show_user_data.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_show_user_data.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
@@ -332,16 +772,8 @@
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_show_user_data.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
-        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_bottom_navigation_item.xml"
-    },
-    {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
         "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_layout_snackbar.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_house_data.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_house_data.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_register.xml",
@@ -352,48 +784,40 @@
         "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
-        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_bottom_sheet_dialog.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/layout/design_text_input_password_icon.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
-        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_navigation_menu_item.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_change_password.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_change_password.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/layout/design_navigation_item_subheader.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
-        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_navigation_item.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/select_dialog_item_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
         "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
-        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/layout/activity_splash.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
         "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_widget_seekbar.xml",
-        "source": "/Users/xcituser/.android/build-cache/e845284418dbde19547651a2de4efe9d0ecca743/output/res/layout/preference_widget_seekbar.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/fragment_home.xml",
-        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/layout/fragment_home.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
@@ -408,16 +832,16 @@
         "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
         "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_layout_snackbar_include.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
@@ -428,52 +852,24 @@
         "source": "/root/.android/build-cache/80d31991c223ddebb5356d754aca5225dc14c3b5/output/res/layout/preference_list_fragment.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
-        "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_login.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_widget_seekbar.xml",
-        "source": "/root/.android/build-cache/dec67511409cca956d4b8e0cb4b4bc8bd4557fca/output/res/layout/preference_widget_seekbar.xml"
-    },
-    {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
         "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/notification_template_icon_group.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_category.xml",
-        "source": "/root/.android/build-cache/80d31991c223ddebb5356d754aca5225dc14c3b5/output/res/layout/preference_category.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/select_dialog_item_material.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_widget_switch.xml",
+        "source": "/Users/admin3022/.android/build-cache/fb01436855e179d97a1e602c85e6453e06866187/output/res/layout/preference_widget_switch.xml"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_recyclerview.xml",
         "source": "/root/.android/build-cache/80d31991c223ddebb5356d754aca5225dc14c3b5/output/res/layout/preference_recyclerview.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_popup_menu_header_item_layout.xml"
-    },
-    {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
         "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
-        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
@@ -488,18 +884,6 @@
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_change_password.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/fragment_monitor.xml",
-        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/layout/fragment_monitor.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_about.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_about.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_dialog_title_material.xml"
-    },
-    {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_action_bar_up_container.xml"
     },
@@ -512,88 +896,44 @@
         "source": "/Users/xcituser/.android/build-cache/e845284418dbde19547651a2de4efe9d0ecca743/output/res/layout/preference_dialog_edittext.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/notification_template_icon_group.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
         "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/notification_template_lines_media.xml"
-    },
-    {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_information.xml",
         "source": "/Users/xcituser/.android/build-cache/5f3bf5659cb9e1b02b45c7c13ae8331f55331ba2/output/res/layout/preference_information.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_expanded_menu_layout.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
         "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/layout/design_text_input_password_icon.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_information_material.xml",
-        "source": "/Users/xcituser/.android/build-cache/ba7a168f9729e9113a239b8891ef14d6a604f5e5/output/res/layout/preference_information_material.xml"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/fragment_home.xml",
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/fragment_home.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
-        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_navigation_item_header.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_dialog_edittext.xml",
         "source": "/root/.android/build-cache/dec67511409cca956d4b8e0cb4b4bc8bd4557fca/output/res/layout/preference_dialog_edittext.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
-        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_navigation_item_separator.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/layout/abc_screen_simple.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_dropdown_material.xml",
-        "source": "/Users/xcituser/.android/build-cache/ba7a168f9729e9113a239b8891ef14d6a604f5e5/output/res/layout/preference_dropdown_material.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_screen_simple.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/select_dialog_singlechoice_material.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/layout/design_navigation_menu.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
         "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/notification_template_part_time.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
@@ -604,39 +944,19 @@
         "source": "/Users/xcituser/.android/build-cache/5f3bf5659cb9e1b02b45c7c13ae8331f55331ba2/output/res/layout/preference_widget_switch_compat.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_list_fragment.xml",
-        "source": "/Users/xcituser/.android/build-cache/5f3bf5659cb9e1b02b45c7c13ae8331f55331ba2/output/res/layout/preference_list_fragment.xml"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/preference_widget_switch.xml",
         "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout/preference_widget_switch.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
-        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_navigation_item_subheader.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
         "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout/abc_select_dialog_material.xml"
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_navigation_item_subheader.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
-        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/layout/design_layout_tab_text.xml"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout/activity_edit_user_data.xml",
-        "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/layout/activity_edit_user_data.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/notification_action.xml"
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/layout/abc_screen_content_include.xml"
     }
 ]

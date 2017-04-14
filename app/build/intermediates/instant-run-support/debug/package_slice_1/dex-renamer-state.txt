@@ -1,4 +1,4 @@
-#Tue Apr 11 14:35:05 EDT 2017
-base.0=/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1
+#Fri Apr 14 16:01:07 EDT 2017
+base.0=/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1
 renamed.0=classes.dex
-file.0=/root/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex
+file.0=/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex
