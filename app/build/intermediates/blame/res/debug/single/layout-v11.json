@@ -12,12 +12,12 @@
         "source": "/Users/admin3022/.android/build-cache/03397edfc16fa19867c26aa5e5935864e860ceec/output/res/layout-v11/preference_dropdown.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout-v11/notification_media_cancel_action.xml"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v11/preference_dropdown.xml",
         "source": "/root/.android/build-cache/80d31991c223ddebb5356d754aca5225dc14c3b5/output/res/layout-v11/preference_dropdown.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/layout-v11/notification_media_cancel_action.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",

@@ -10,25 +10,7 @@
             android:key="openUser"
             >
         </Preference>
-<<<<<<< HEAD
-
-     <!--   <Preference
-=======
-<!--
-        <Preference
->>>>>>> 79c5431d99b8739ea4daded35550690930cfc83d
-            android:title="Home Profile"
-            android:summary="View or edit your home information."
-            android:key="openHouseRegister"
-            >
-        </Preference>
-<<<<<<< HEAD
--->
-=======
- -->
->>>>>>> 79c5431d99b8739ea4daded35550690930cfc83d
     </PreferenceCategory>
-
 
 
     <PreferenceCategory

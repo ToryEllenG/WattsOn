@@ -60,12 +60,12 @@
         "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/drawable/abc_ic_voice_search_api_material.xml"
-    },
-    {
         "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
         "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
@@ -112,12 +112,12 @@
         "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/drawable/abc_dialog_material_background.xml"
-    },
-    {
         "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
         "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/drawable/abc_dialog_material_background.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",

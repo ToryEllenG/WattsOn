@@ -84,12 +84,12 @@
         "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/anim/abc_popup_enter.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
-        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/anim/design_snackbar_in.xml"
-    },
-    {
         "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
         "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/anim/design_snackbar_in.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",

@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
-        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/color-v23/abc_color_highlight_material.xml"
-    },
-    {
         "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
         "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/color-v23/abc_color_highlight_material.xml"
     },
     {
         "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",

@@ -18,8 +18,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/viewStatisticsBT"
-        android:layout_marginTop="30dp"
-        android:layout_below="@+id/Room4DataTV"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/Room4TV"
         android:layout_centerHorizontal="true" />
 
     <Button
