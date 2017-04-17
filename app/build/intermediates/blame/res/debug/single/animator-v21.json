@@ -6,5 +6,9 @@
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/animator-v21/design_appbar_state_list_animator.xml",
         "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/animator-v21/design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/animator-v21/design_appbar_state_list_animator.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/animator-v21/design_appbar_state_list_animator.xml"
     }
 ]

@@ -8,6 +8,14 @@
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-mdpi/ic_settings_applications.png"
     },
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_settings.png",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-mdpi/ic_settings.png"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_toc.png",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-mdpi/ic_toc.png"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_settings.png",
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-mdpi/ic_settings.png"
     },
@@ -18,6 +26,10 @@
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_timeline.png",
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-mdpi/ic_timeline.png"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_settings_applications.png",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-mdpi/ic_settings_applications.png"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_home.png",
@@ -38,5 +50,13 @@
     {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_toc.png",
         "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/drawable-mdpi/ic_toc.png"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_home.png",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-mdpi/ic_home.png"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_timeline.png",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-mdpi/ic_timeline.png"
     }
 ]

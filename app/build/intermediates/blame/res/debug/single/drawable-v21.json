@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
         "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/drawable-v21/avd_show_password.xml"
     },
@@ -8,12 +12,20 @@
         "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
     },
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/drawable-v21/avd_show_password.xml"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/preference_list_divider_material.xml",
         "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/drawable-v21/preference_list_divider_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
         "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_send.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-v21/ic_menu_send.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
@@ -32,6 +44,10 @@
         "source": "/Users/xcituser/.android/build-cache/ba7a168f9729e9113a239b8891ef14d6a604f5e5/output/res/drawable-v21/preference_list_divider_material.xml"
     },
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
         "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/drawable-v21/avd_hide_password.xml"
     },
@@ -46,6 +62,10 @@
     {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_gallery.xml",
         "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/drawable-v21/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/preference_list_divider_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/fb01436855e179d97a1e602c85e6453e06866187/output/res/drawable-v21/preference_list_divider_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_slideshow.xml",
@@ -64,6 +84,18 @@
         "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/drawable-v21/notification_action_background.xml"
     },
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_camera.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-v21/ic_menu_camera.xml"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_send.xml",
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-v21/ic_menu_send.xml"
     },
@@ -80,12 +112,36 @@
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-v21/ic_menu_gallery.xml"
     },
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_gallery.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-v21/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_slideshow.xml",
         "source": "/Users/xcituser/Desktop/WattsOn/app/src/main/res/drawable-v21/ic_menu_slideshow.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
         "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_slideshow.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-v21/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_share.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-v21/ic_menu_share.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
@@ -118,5 +174,9 @@
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_camera.xml",
         "source": "/root/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-v21/ic_menu_camera.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_manage.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/src/main/res/drawable-v21/ic_menu_manage.xml"
     }
 ]

@@ -4,6 +4,10 @@
         "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
     },
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/WattsOn/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
         "source": "/Users/xcituser/.android/build-cache/36ef3aa30fae9639834100bd3683bd8b60dbea2d/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
     },
@@ -14,5 +18,9 @@
     {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
         "source": "/root/.android/build-cache/743f34a621ccf20266d691d09f3ddace055f790a/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/admin3022/.android/build-cache/f2bc705834185cd9cb8286410ca4c217c29aecfa/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
     }
 ]

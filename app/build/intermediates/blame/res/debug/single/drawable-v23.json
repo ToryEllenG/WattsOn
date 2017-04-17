@@ -4,6 +4,10 @@
         "source": "/Users/xcituser/.android/build-cache/7def9dba6ba2558e926e78f75a58de1dc147f983/output/res/drawable-v23/abc_control_background_material.xml"
     },
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/2070822cd9935084cb28c7a28504463ad36801ab/output/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/WattsOn/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
         "source": "/root/.android/build-cache/4e882506d6ee0102957e24cdcbbc88c142344f4d/output/res/drawable-v23/abc_control_background_material.xml"
     }
