@@ -11,13 +11,13 @@
             >
         </Preference>
 
-        <Preference
+     <!--   <Preference
             android:title="Home Profile"
             android:summary="View or edit your home information."
             android:key="openHouseRegister"
             >
         </Preference>
-
+-->
     </PreferenceCategory>
 
 
