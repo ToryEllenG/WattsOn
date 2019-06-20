@@ -5,7 +5,7 @@ The purpose of this applicaton is to provide a medium which allows the everyday 
 
 The user will be able to see exactly how much energy is being used in the house, and what room(s) it is coming from, creating an effective way to know where to save costs.
 
-Repository for Android application created and maintained by Troy Gamboa.
+Repository for Android application created and maintained by Tory Gamboa.
 
 ![Login Page](http://i.imgur.com/qf58KS6.png "Screenshot of Login Page") ![Data Page](http://i.imgur.com/vf6qPKh.png "Screenshot of Data Page") ![Stats Page](http://i.imgur.com/WGadACY.png "Screenshot of Statistics Page") 
 
